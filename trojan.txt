@@ -1,4 +1,2 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
 trojan://2ee85121-31de-4581-a492-eb00f606e392@198.23.229.250:443?security=tls&headerType=none&type=tcp&sni=rc6.freeguard.org#hamedp71%3A%3A%F0%9F%87%BA%F0%9F%87%B8
-trojan://ttfang@45.131.4.216:2096?path=%2FTelegram&security=tls&host=ttfang.fange.me&fp=chrome&type=ws&sni=ttfang.fange.me#hamedp71%3A%3A%F0%9F%87%BA%F0%9F%87%B8
-trojan://ttfang@72.167.230.216:2096?path=%2FTelegram&security=tls&host=ttfang.fange.me&fp=chrome&type=ws&sni=ttfang.fange.me#hamedp71%3A%3A%F0%9F%87%BA%F0%9F%87%B8
