@@ -2060,56 +2060,49 @@ def save_sorted_configs(configs: list):
         filename = os.path.join("loc", f"{flag_emoji}.txt")
         write_to_file(filename, country_configs)
 # ==============================================================================
-# بخش اصلی اجرای اسکریپت
+# بخش اصلی اجرای اسکریپت (نسخه اصلاح‌شده برای حل خطای 403)
 # ==============================================================================
+if __name__ == "__main__":
+    all_configs_raw = []
+    if LINK_PATH:
+        print(f"Fetching from {len(LINK_PATH)} link(s)...")
 
-# مرحله ۱: خواندن کانفیگ‌ها از لینک‌ها
-all_configs_raw = []
-if len(LINK_PATH) != 0:
-    print(f"در حال خواندن کانفیگ از {len(LINK_PATH)} لینک...")
-    for link in LINK_PATH:
-        if link.startswith("http://") or link.startswith("https://"):
-            try:
-                response = requests.get(link, timeout=15)
-                response.raise_for_status()
-                # محتوای لینک را به لیست اضافه می‌کنیم
-                all_configs_raw.extend(response.text.splitlines())
-            except requests.exceptions.RequestException as e:
-                print(f"خطا در دریافت لینک {link}: {e}")
+        # ۱. یک هدر برای معرفی اسکریپت به عنوان مرورگر واقعی تعریف می‌کنیم
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
+        }
 
-# مرحله ۲: تمیز کردن و حذف تکراری‌ها و خطوط خالی
-cleaned_configs = clear_p(all_configs_raw)
+        for link in LINK_PATH:
+            if link.startswith("http"):
+                try:
+                    print(f"Fetching: {link}")
+                    # ۲. هدر تعریف شده را به درخواست اضافه می‌کنیم
+                    response = requests.get(link, timeout=15, headers=headers)
+                    response.raise_for_status()
+                    all_configs_raw.extend(response.text.splitlines())
+                    print(f"Successfully fetched {link}")
+                except requests.RequestException as e:
+                    print(f"!!! Failed to fetch {link}: {e}")
 
-# مرحله ۳: تنظیم تگ اولیه برای تمام کانفیگ‌ها
-tagged_configs = set_initial_tag(cleaned_configs, "hamedp71")
+    # مرحله ۲: تمیز کردن و حذف تکراری‌ها
+    cleaned_configs = clear_p(all_configs_raw)
+    print(f"Found {len(cleaned_configs)} unique configs after cleaning.")
 
-# مرحله ۴: نوشتن کانفیگ‌های آماده شده در فایل ورودی برای تستر
-print(f"در حال نوشتن {len(tagged_configs)} کانفیگ آماده تست در فایل '{TEXT_PATH}'...")
-with open(TEXT_PATH, "w", encoding="utf-8") as f:
-    f.write("\n".join(tagged_configs))
+    # مرحله ۳: تنظیم تگ اولیه
+    tagged_configs = set_initial_tag(cleaned_configs, "hamedp71")
 
-# مرحله ۵: اجرای فرآیند تست اصلی
-# تابع ping_all کانفیگ‌ها را از TEXT_PATH می‌خواند و نتایج را در FIN_CONF می‌ریزد
-ping_all()
+    # مرحله ۴: نوشتن کانفیگ‌های آماده در فایل ورودی برای تستر
+    print(f"Writing {len(tagged_configs)} prepared configs to '{TEXT_PATH}' for testing...")
+    with open(TEXT_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(tagged_configs))
 
-# مرحله ۶: ذخیره نتایج نهایی به صورت مرتب‌شده
-save_sorted_configs(FIN_CONF)
+    # مرحله ۵: اجرای فرآیند اصلی تست
+    ping_all()
 
-print("پردازش با موفقیت به پایان رسید.")
-exit()
+    # مرحله ۶: ذخیره نتایج نهایی به صورت مرتب‌شده
+    save_sorted_configs(FIN_CONF)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # مرحله ۷: اطمینان از توقف تمام فرآیندها در انتها
+    process_manager.stop_all()
+    print("All tasks finished successfully.")
+    sys.exit()
