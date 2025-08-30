@@ -1,3 +1,2 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-vless://8b9c63ff-6789-449d-e5fd-5b83fef2b440@nnctwclyx.codesofun.pp.ua:443?&security=tls&sni=nnctw.codesofun.pp.ua&type=ws&headerType=none&host=nnctw.codesofun.pp.ua&path=%2F2261acb5#hamedp71%3A%3A%F0%9F%87%B9%F0%9F%87%BC
 vmess://eyJhZGQiOiIxMDMuNjEuMTM5LjEzNyIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiZjhkOTNjZmItM2Q1ZC00NDdjLWE2OTctMTY0OTZkZDc0Njk3IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjIwNTIxLCJwcyI6ImhhbWVkcDcxOjrwn4e58J+HvCIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIn0
