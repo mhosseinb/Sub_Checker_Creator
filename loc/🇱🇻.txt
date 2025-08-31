@@ -1,2 +1,2 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-vless://5ae45629-3db6-4c6b-9b9e-346c3e1a798d@90.156.254.164:40432?security=&type=ws&path=/&encryption=none#hamedp71%3A%3A%F0%9F%87%B1%F0%9F%87%BB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@216.173.70.187:57456#hamedp71%3A%3A%F0%9F%87%B1%F0%9F%87%BB
