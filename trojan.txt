@@ -1,5 +1,3 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-trojan://1ce1df7962f71c6f@51.195.255.103:8443?security=tls&headerType=none&type=tcp&sni=uk-03.allhubb.info#hamedp71%3A%3A%F0%9F%87%AC%F0%9F%87%A7
-trojan://xxoo@us.blazeppn.info:443?security=tls&sni=us.blazeppn.info#hamedp71%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://2ee85121-31de-4581-a492-eb00f606e392@198.46.152.83:443?security=tls&sni=sj3.freeguard.org#hamedp71%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://2ee85121-31de-4581-a492-eb00f606e392@45.91.171.116:443?security=tls&sni=sto.freeguard.org#hamedp71%3A%3A%F0%9F%87%B8%F0%9F%87%AA
