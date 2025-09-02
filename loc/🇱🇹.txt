@@ -1,2 +1,3 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@192.36.61.59:990#hamedp71%3A%3A%F0%9F%87%B1%F0%9F%87%B9
 vless://ec6f9738-5f01-4f8b-9754-a89deb4aecc3@212.192.23.217:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws&sid=06c6eb7423f24de5#hamedp71%3A%3A%F0%9F%87%B1%F0%9F%87%B9

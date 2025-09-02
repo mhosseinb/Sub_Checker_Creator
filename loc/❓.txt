@@ -1,10 +1,2 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.66:8080#hamedp71%3A%3A%E2%9D%93
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#hamedp71%3A%3A%E2%9D%93
-vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@212.41.8.198:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=wa.sfasti.ru&fp=firefox&security=reality&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d#hamedp71%3A%3A%E2%9D%93
-vless://0cd276a5-4501-413a-acf8-b51c54894f02@179.61.219.170:22934?security=none&encryption=none&headerType=none&type=tcp#hamedp71%3A%3A%E2%9D%93
-vless://f599eb06-508a-4e24-9d59-4c50bf0332b9@91.98.79.239:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tempail.com&alpn=http%2F1.1&fp=chrome&pbk=6wcvf78pdo-cH395vAliVVWoc5x8LSBgXJCQEF8KbA8&sid=f47f400cc96a4e&type=tcp&headerType=none&host=tempail.com&allowInsecure=1#hamedp71%3A%3A%E2%9D%93
-hysteria2://f599eb06-508a-4e24-9d59-4c50bf0332b9@91.98.79.239:29111?sni=plaza.ir&obfs=salamander&obfs-password=zVwQtP96XEO8ylpQ&insecure=1&allowInsecure=1#hamedp71%3A%3A%E2%9D%93
-vless://7d18fc67-1994-4f7e-8ff8-c024223f33bb@npmjs.com:443?security=tls&sni=revcloud.migacpi.org&type=ws&host=revcloud.migacpi.org&path=%2Fcbde4058-6b81-432b-8689-dd7ce10e479c#hamedp71%3A%3A%E2%9D%93
-vless://7d18fc67-1994-4f7e-8ff8-c024223f33bb@tgju.org:443?security=tls&sni=revcloud.migacpi.org&type=ws&host=revcloud.migacpi.org&path=%2Fcbde4058-6b81-432b-8689-dd7ce10e479c#hamedp71%3A%3A%E2%9D%93
-vless://7d18fc67-1994-4f7e-8ff8-c024223f33bb@w3.org:443?security=tls&sni=revcloud.migacpi.org&type=ws&host=revcloud.migacpi.org&path=%2Fcbde4058-6b81-432b-8689-dd7ce10e479c#hamedp71%3A%3A%E2%9D%93
+vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.waipdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#hamedp71%3A%3A%E2%9D%93

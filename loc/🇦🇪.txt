@@ -1,0 +1,5 @@
+//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
+vless://36bd6f74-de49-4c80-952e-d6b7b68a408a@du.maxgime20.ir:12001?security=none&encryption=none&host=myket.ir&headerType=none&type=tcp#hamedp71%3A%3A%F0%9F%87%A6%F0%9F%87%AA
+vless://36bd6f74-de49-4c80-952e-d6b7b68a408a@du.maxgime20.ir:8674?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&sni=hls-svod.itunes.apple.com&sid=6ba85179e30d4fc2#hamedp71%3A%3A%F0%9F%87%A6%F0%9F%87%AA
+vless://36bd6f74-de49-4c80-952e-d6b7b68a408a@du.maxgime20.ir:6957?mode=gun&security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=chrome&spx=%2Fexample&type=grpc&serviceName=xyz&sni=businessmadesimple.com&sid=6ba85179e30d4fc2#hamedp71%3A%3A%F0%9F%87%A6%F0%9F%87%AA
+vless://36bd6f74-de49-4c80-952e-d6b7b68a408a@du.maxgime20.ir:8880?path=%2F&security=none&encryption=none&host=zula.ir.google.com.maxgime20.ir&type=ws#hamedp71%3A%3A%F0%9F%87%A6%F0%9F%87%AA
