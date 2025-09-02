@@ -1,4 +1,2 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@45.154.206.192:990#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%B8
-vless://0082e444-b983-4f09-92c8-138183cfb92b@es-cdn.rasad-vip-service.ir:2082?path=%2F%3Fed%3D2052&security=none&encryption=none&host=es-host.rasad-vip-service.ir&type=ws#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%B8
-vless://0082e444-b983-4f09-92c8-138183cfb92b@rasad-es.rasad-vip-service.ir:8080?mode=gun&security=reality&encryption=none&pbk=ilrGGBRH2ss3M6HQaXSIEkPURL3uFKPvTEJj34yU0CY&fp=firefox&type=grpc&serviceName=xyz&sni=refersion.com#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%B8

@@ -1,15 +1,7 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@185.245.107.61:2222#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@91.84.104.133:2222#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@151.242.251.144:8080#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@151.242.251.153:8080#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.217:8080#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://3691b39b-4aa7-4f68-8304-902e4734e2f4@45.128.232.102:16798/?type=tcp&encryption=none&sni=yahoo.com&fp=chrome&security=reality&pbk=UGm82qoVVxxTkwGLniA8C004EYPW52VG7GmdgHzwSXU&sid=229b2a94#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://f073c5a2-827c-473b-8ea1-0dcb83c8ebf0@64.188.75.255:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ams6.hipay.su&fp=random&security=reality&pbk=eamx5zeQt07skP5CVEMCuyFAwlOVmdXwnjAvhWjTlTQ&sid=eb7fc73605f88074#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://6f8923d9-f812-4ca6-b93a-8f9227bf2eab@195.93.253.49:33094/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=35JazACyPS6LcDwpGibneEeMzkzGYWf4KTG_Oqp0oBE&sid=29489194da0d5d#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://f073c5a2-827c-473b-8ea1-0dcb83c8ebf0@64.188.75.255:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ams6.hipay.su&fp=chrome&security=reality&pbk=eamx5zeQt07skP5CVEMCuyFAwlOVmdXwnjAvhWjTlTQ&sid=eb7fc73605f88074#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://0082e444-b983-4f09-92c8-138183cfb92b@nl-cdn.rasad-vip-service.ir:2082?path=%2F%3Fed%3D2052&security=none&encryption=none&host=nl-host.rasad-vip-service.ir&type=ws#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://0082e444-b983-4f09-92c8-138183cfb92b@rasad-nl.rasad-vip-service.ir:8080?mode=gun&security=reality&encryption=none&pbk=ilrGGBRH2ss3M6HQaXSIEkPURL3uFKPvTEJj34yU0CY&fp=firefox&type=grpc&serviceName=xyz&sni=refersion.com#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creative-computer.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.34.244.68:443#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
-vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handSoME-dEvice.ONEeAt.CO:80?path=%2F&security=none&encryption=none&type=ws#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@151.242.251.131:8080#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
+vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
+vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
