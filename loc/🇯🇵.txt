@@ -1,5 +1,2 @@
 //profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-ss://YWVzLTEyOC1nY206MTAwODY=@153.121.43.183:10087#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
-vless://a0305d71-433d-4abe-8538-3c5521df537b@154.19.187.53:33640/?type=tcp&encryption=none&sni=www.yahoo.com&fp=chrome&security=reality&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&sid=#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
-vless://a0305d71-433d-4abe-8538-3c5521df537b@154.19.187.53:33640/?type=tcp&encryption=none&flow=&sni=www.yahoo.com&fp=chrome&security=reality&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&sid=#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
