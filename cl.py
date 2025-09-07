@@ -29,11 +29,10 @@ with open(CONF_PATH,"r") as file_client_set:
 TEXT_PATH="normal.txt"
 LINK_PATH=[ "https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime" , "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt" , "https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Reality" , "https://raw.githubusercontent.com/darkvpnapp/CloudflarePlus/refs/heads/main/proxy" , "https://raw.githubusercontent.com/mahsa114232-dot/My-sub/refs/heads/main/sub.txt" , "https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.txt" , "https://raw.githubusercontent.com/hamedp-71/Trojan/refs/heads/main/hp.txt" , "https://raw.githubusercontent.com/mahsa114232-dot/My-sub/refs/heads/main/sub.txt" , "https://raw.githubusercontent.com/peweza/SUB-PUBLIC/refs/heads/main/PewezaVPN" ] # [ "" , "" , ... ]
 FIN_PATH="final.txt"
-# ==============================================================================
-# <<<<<<<<<<<<<<<< این خط را اضافه کنید >>>>>>>>>>>>>>>>
-# در اینجا متن دلخواه خود را که می‌خواهید در سطر اول تمام فایل‌ها قرار گیرد، بنویسید
-FILE_HEADER_TEXT = "//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE="
-# ==============================================================================
+FILE_HEADER_TEXT = """//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
+"""
 FIN_CONF=[]
 CHECK_LOC=True
 CHECK_IRAN=True
@@ -2106,6 +2105,7 @@ if __name__ == "__main__":
     process_manager.stop_all()
     print("All tasks finished successfully.")
     sys.exit()
+
 
 
 
