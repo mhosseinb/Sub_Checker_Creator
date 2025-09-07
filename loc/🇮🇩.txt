@@ -2,6 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
-ss://YWVzLTEyOC1nY206OGFhMGIwM2ItZTRjNi00MzY1LWFkMmQtZjZlOGE2OTQxMWFh@yinni01.tmdns-sing.top:13879#hamedp71%3A%3A%F0%9F%87%AE%F0%9F%87%A9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.205.159.100:990#hamedp71%3A%3A%F0%9F%87%AE%F0%9F%87%A9
 vmess://eyJhZGQiOiJpZC1zZXA0dGgud2ltYXguY2MiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImlkLXNlcDR0aC53aW1heC5jYyIsImlkIjoiMTEzYjUzMzktYzQzOC00YWFkLTkwNjYtNjhjNDQ1YTBlMjM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3ByYXllci10aW1lcy90b2RheSIsInBvcnQiOiI0NDMiLCJwcyI6ImhhbWVkcDcxOjrwn4eu8J+HqSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpZC1zZXA0dGgud2ltYXguY2MiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ
