@@ -1,3 +1,0 @@
-//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@192.36.61.59:990#hamedp71%3A%3A%F0%9F%87%B1%F0%9F%87%B9
-vless://b242f629-525c-4e4a-a9d3-9a3d20bad534@185.186.25.247:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=google.com&fp=chrome&security=reality&pbk=_Q8aF8OgOkAa1vikcq9pUQIPvkiUczkU1N2XNKWNgFk&sid=fd2d765503#hamedp71%3A%3A%F0%9F%87%B1%F0%9F%87%B9
