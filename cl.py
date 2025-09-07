@@ -27,7 +27,7 @@ with open(CONF_PATH,"r") as file_client_set:
         f=json.load(file_client_set)
         test_link_=f["core"]["test_url"]
 TEXT_PATH="normal.txt"
-LINK_PATH=[ "https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime" , "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt" , "https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Reality" , "https://raw.githubusercontent.com/darkvpnapp/CloudflarePlus/refs/heads/main/proxy" , "https://raw.githubusercontent.com/mahsa114232-dot/My-sub/refs/heads/main/sub.txt" , "https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.txt" , "https://raw.githubusercontent.com/hamedp-71/Trojan/refs/heads/main/hp.txt" , "https://raw.githubusercontent.com/mahsa114232-dot/My-sub/refs/heads/main/sub.txt" , "https://raw.githubusercontent.com/peweza/SUB-PUBLIC/refs/heads/main/PewezaVPN" ] # [ "" , "" , ... ]
+LINK_PATH=[ "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/hy2.txt" , "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/ss.txt" , "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/trojan.txt" , "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/tuic.txt" , "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/vmess.txt" , "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/ssr.txt" , "https://raw.githubusercontent.com/hamedp-71/v2go_NEW/main/Splitted-By-Protocol/vless.txt" , "https://raw.githubusercontent.com/mahsa114232-dot/My-sub/refs/heads/main/sub.txt" ] # [ "" , "" , ... ]
 FIN_PATH="final.txt"
 FILE_HEADER_TEXT = """//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
 //profile-update-interval: 1
@@ -2105,6 +2105,7 @@ if __name__ == "__main__":
     process_manager.stop_all()
     print("All tasks finished successfully.")
     sys.exit()
+
 
 
 
