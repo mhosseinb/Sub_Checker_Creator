@@ -2,4 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MjAwMGUwMi02YjRkLTQ2YWQtYTU3Mi04MGRiN2RiMmE5Y2U=@23.94.67.166:8080#hamedp71%3A%3A%F0%9F%87%AE%F0%9F%87%AA
 vless://f4dcc4a5-e41b-4275-b9a8-fcdb697842bf@54.154.16.89:443?security=reality&encryption=none&pbk=afa58BD9R-dgUrH2ixLAZUN1IuPpWPCaxigHw1Ngj2k&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=digikala.com&sid=1585e8#hamedp71%3A%3A%F0%9F%87%AE%F0%9F%87%AA

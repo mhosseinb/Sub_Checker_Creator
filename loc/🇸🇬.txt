@@ -2,5 +2,8 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
+hy2://3hszBhqVsUhqOOFWJlev6k6Tkc@47.129.217.4:22509/?insecure=1&sni=bing.com#hamedp71%3A%3A%F0%9F%87%B8%F0%9F%87%AC
+hy2://5OiuCsPmULZ0lJwts89fegLJE@47.129.100.149:17193/?insecure=1&sni=bing.com#hamedp71%3A%3A%F0%9F%87%B8%F0%9F%87%AC
+hy2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@142.91.101.45:2055/?insecure=1&sni=xjp1.mangshe.xyz#hamedp71%3A%3A%F0%9F%87%B8%F0%9F%87%AC
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNTmZzOHI1a2VPdWU4aGc1SlA1aHBJ@172.237.65.229:443#hamedp71%3A%3A%F0%9F%87%B8%F0%9F%87%AC
 vmess://eyJhZGQiOiIyMDIuNzkuMTYxLjE4OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcGF0aC8xNzA3MzMxMzIyMzMiLCJwb3J0IjoiNDQzIiwicHMiOiJoYW1lZHA3MTo68J+HuPCfh6wiLCJzY3kiOiJhdXRvIiwic25pIjoid3d3LjMyMjc4MTE3Lnh5eiIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
