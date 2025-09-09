@@ -1,5 +1,0 @@
-//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-//profile-update-interval: 1
-//subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
-
-vless://05b8a85c-544f-4909-b8f4-2aa15bacd6d5@54.154.16.89:443?security=reality&encryption=none&pbk=sjRxGwIkob8VBPJscdmrthnT7m8tvVByJkNJuZhFj2o&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=microsoft.com&sid=6ac5f147#hamedp71%3A%3A%F0%9F%87%AE%F0%9F%87%AA

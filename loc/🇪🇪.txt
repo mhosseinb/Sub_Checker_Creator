@@ -2,6 +2,4 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@188.214.36.155:990#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%AA
-vless://b327d2bf-a1d4-530f-bf85-5f7033483334@23.230.179.92:80?security=&fp=chrome&type=httpupgrade&path=/httpupgrade&host=ee1.xvless.online&encryption=none#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%AA
-vless://b327d2bf-a1d4-530f-bf85-5f7033483334@23.230.179.92:443?security=tls&sni=ee1.xvless.online&fp=chrome&type=httpupgrade&path=/httpupgrade&host=ee1.xvless.online&encryption=none#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%AA
+vless://b327d2bf-a1d4-530f-bf85-5f7033483334@ee1.xvless.online:80?path=%2Fhttpupgrade&security=none&encryption=none&host=ee1.xvless.online&type=httpupgrade#hamedp71%3A%3A%F0%9F%87%AA%F0%9F%87%AA

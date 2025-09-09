@@ -2,6 +2,6 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxYlp5bUg3ZFdQQWp2Vk41aWtCZDNM@62.210.88.22:443#hamedp71%3A%3A%F0%9F%87%AB%F0%9F%87%B7
-vmess://eyJhZGQiOiJ3d3cuc3BlZWR0ZXN0Lm5ldCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiQkxhWkUtZlJBLTY0LkJMYVpFQ0xPdUQuc2l0RSIsImlkIjoiYjdhY2Y0NGYtM2MzYS00MzBjLThlZDAtZmI2NGNjYzlhMTNhIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2a3dzcyIsInBvcnQiOiI0NDMiLCJwcyI6ImhhbWVkcDcxOjrwn4er8J+HtyIsInNjeSI6ImF1dG8iLCJzbmkiOiJCTGFaRS1mUkEtNjQuQkxhWkVDTE91RC5zaXRFIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0
+vmess://eyJhZGQiOiJ3d3cuc3BlZWR0ZXN0Lm5ldCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiQkxhWkUtZlJBLTY0LkJMYVpFQ0xPdUQuc2l0RSIsImlkIjoiYjdhY2Y0NGYtM2MzYS00MzBjLThlZDAtZmI2NGNjYzlhMTNhIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2a3dzcyIsInBvcnQiOiI0NDMiLCJwcyI6ImhhbWVkcDcxOjrwn4er8J+HtyIsInNjeSI6ImF1dG8iLCJzbmkiOiJCTGFaRS1mUkEtNjQuQkxhWkVDTE91RC5zaXRFIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0
+vless://24c81def-9d06-5b44-a415-6568739eac66@fr1.xvless.online:80?path=%2Fhttpupgrade&security=none&encryption=none&host=fr1.xvless.online&type=httpupgrade#hamedp71%3A%3A%F0%9F%87%AB%F0%9F%87%B7
 vless://24c81def-9d06-5b44-a415-6568739eac66@fr1.xvless.online:443?path=%2Fhttpupgrade&security=tls&encryption=none&host=fr1.xvless.online&type=httpupgrade&sni=fr1.xvless.online#hamedp71%3A%3A%F0%9F%87%AB%F0%9F%87%B7
