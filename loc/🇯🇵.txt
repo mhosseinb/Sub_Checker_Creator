@@ -3,7 +3,8 @@
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
 hy2://16461a78-363c-457a-92f9-83b0a68edc37@96.62.214.75:2056/?insecure=1&sni=zp1.eyujichang.xyz#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.87.204:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
-vmess://eyJhZGQiOiIxMDMuMTMuMTkuMjU0IiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6ImFhY2VjNDlhLWM2ZWItNDNhMC1iMTRhLWUzYjQzMDJlNWYxYSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNTA0MTQiLCJwcyI6ImhhbWVkcDcxOjrwn4ev8J+HtSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0
-vless://9f84ed30-e67b-45bb-983f-089c0f7541f7@in-sep4th.wimax.cc:443?path=%2Fcat-photos%2Fcalico&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=in-sep4th.wimax.cc&fp=chrome&type=ws&sni=in-sep4th.wimax.cc#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.87.241:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.87.204:443#hamedp71%3A%3A%F0%9F%87%AF%F0%9F%87%B5
