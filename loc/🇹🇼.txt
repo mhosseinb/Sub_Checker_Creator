@@ -2,5 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
-vmess://eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJoYW1lZHA3MTo68J+HufCfh7wiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0
-vless://8b9c63ff-6789-449d-e5fd-5b83fef2b440@nnctwclyx.codesofun.pp.ua:443?&security=tls&sni=nnctw.codesofun.pp.ua&type=ws&headerType=none&host=nnctw.codesofun.pp.ua&path=%2F2261acb5#hamedp71%3A%3A%F0%9F%87%B9%F0%9F%87%BC
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@223.165.4.173:990#hamedp71%3A%3A%F0%9F%87%B9%F0%9F%87%BC
+vmess://eyJhZGQiOiI0NS4xMjEuNDguMTc0IiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6ImJmYzYzMGFhLTQ1OTgtNDQ4MS05MzM4LWNhYzE1ZTNlNmI2NSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjA3ODgiLCJwcyI6ImhhbWVkcDcxOjrwn4e58J+HvCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0
