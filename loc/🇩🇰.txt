@@ -2,6 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
-vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:2096?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=6Dd1Xt31Qm.SoLeNtRaA.iNfO&fp=chrome&type=ws&sni=6Dd1Xt31Qm.SoLeNtRaA.iNfO#hamedp71%3A%3A%F0%9F%87%A9%F0%9F%87%B0
+vless://59076475-%6135%65-4b5b-8%6560-d%617f215f618b@141.227.172.56:25365?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-b%69%61-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON-ZE%44MO%44EON#hamedp71%3A%3A%F0%9F%87%A9%F0%9F%87%B0
 vless://59076475-%6135%65-4b5b-8%6560-d%617f215f618b@141.227.172.56:25365?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#hamedp71%3A%3A%F0%9F%87%A9%F0%9F%87%B0
-vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=I78nThHk0Q.sOlEnTrAa.InFo&fp=chrome&type=ws&sni=I78nThHk0Q.sOlEnTrAa.InFo#hamedp71%3A%3A%F0%9F%87%A9%F0%9F%87%B0
