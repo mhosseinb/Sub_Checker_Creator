@@ -2,4 +2,6 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
+vmess://eyJhZGQiOiIxMDMuNTcuMjQ5LjIwNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmMTMxNDNhNy01NDJkLTQ5ZWMtOTQyOC0wOTgxNDJiNjk3N2MiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiaGFtZWRwNzE6OvCfh6bwn4e6Iiwic2N5Ijoibm9uZSIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
+vless://c4253041-7593-447d-a582-5ab80bc85918@freeyx.cloudflare88.eu.org:443?allowInsecure=0&sni=do-sgp1.008883.xyz&type=ws&host=do-sgp1.008883.xyz&path=/freev2.net?ed=2048fp=random&security=tls#hamedp71%3A%3A%F0%9F%87%A6%F0%9F%87%BA
 vless://dda40179-f8b0-44a1-9926-bb64e7a767a7@170.64.154.27:20651?security=none&encryption=none&headerType=none&type=tcp#hamedp71%3A%3A%F0%9F%87%A6%F0%9F%87%BA
