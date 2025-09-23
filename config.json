@@ -13,8 +13,8 @@
         "enabled": true,
         "fake_dns_enabled": true,
         "local_port": 10853,
-        "remote_server": "https://8.8.8.8/dns-query",
-        "domestic_server": "1.1.1.2"
+        "remote_server": "https://wikimedia-dns.org/dns-query",
+        "domestic_server": "8.8.4.4"
       },
       "routing_rules": {
         "proxy": "",
@@ -41,3 +41,4 @@
       "config_url": ""
     }
   }
+
