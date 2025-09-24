@@ -11,10 +11,10 @@
       },
       "dns": {
         "enabled": true,
-        "fake_dns_enabled": true,
+        "fake_dns_enabled": false,
         "local_port": 10853,
         "remote_server": "https://wikimedia-dns.org/dns-query",
-        "domestic_server": "8.8.4.4"
+        "domestic_server": "223.5.5.5"
       },
       "routing_rules": {
         "proxy": "",
@@ -41,4 +41,5 @@
       "config_url": ""
     }
   }
+
 
