@@ -2,6 +2,6 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.139.24.24:57456#My%20Config%3A%3A%F0%9F%87%B7%F0%9F%87%BA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@ru.vmagnum.win:57456#My%20Config%3A%3A%F0%9F%87%B7%F0%9F%87%BA
-vmess://eyJhZGQiOiI0NS42Ny4yMzAuNzkiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMzE0MTg1ZjctOTMxZC00NjU2LTkyMmQtMDg1N2U3YWZkMjI0IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMTA1MiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIiLCJwcyI6Ik15IENvbmZpZzo68J+Ht/Cfh7oiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ
-vless://8e6acce9-8b56-7190-d491-7d84f8189e26@5.181.171.2:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y&type=tcp&flow=xtls-rprx-vision&encryption=none#My%20Config%3A%3A%F0%9F%87%B7%F0%9F%87%BA
+vmess://eyJhZGQiOiI0NS42Ny4yMzAuNzkiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMzE0MTg1ZjctOTMxZC00NjU2LTkyMmQtMDg1N2U3YWZkMjI0IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMTA1MiIsInBzIjoiTXkgQ29uZmlnOjrwn4e38J+HuiIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ
