@@ -2,4 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@arxfw2b78fi2q9hzylhn.freesocks.work:443#My%20Config%3A%3A%E2%9D%93
+vmess://eyJhZGQiOiJhZmx6enVsLm1laXF1YW5rb25namlhbi5jb20iLCJ2IjoiMiIsInBzIjoiTXkgQ29uZmlnOjrinZMiLCJwb3J0Ijo1MjUxMSwiaWQiOiIzNDJiYWNmZC0yYjhmLTNmNDktYTE2ZS00MzlkYjViMGI5ZDUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwiaG9zdCI6ImFmbHp6dWwubWVpcXVhbmtvbmdqaWFuLmNvbSIsInBhdGgiOiIvNTY0ZGZhMjAvIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.86.72.106:8880?mode=gun&security=none&encryption=none&type=grpc#My%20Config%3A%3A%E2%9D%93
+vless://d8665d45-8103-46e9-9cb7-8902bb7559b4@43.159.99.26:443?path=%2Ftexaws&security=tls&encryption=none&host=hk3.kaipi.link&fp=chrome&type=ws&sni=hk3.kaipi.link#My%20Config%3A%3A%E2%9D%93
