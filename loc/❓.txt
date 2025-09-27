@@ -2,5 +2,6 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
 
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.vetrkot.com:8880?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&type=grpc&encryption=none&flow=#My%20Config%3A%3A%E2%9D%93
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.waipdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#My%20Config%3A%3A%E2%9D%93
+vmess://eyJhZGQiOiI4LjIxNy4yMjAuMzAiLCJhaWQiOjAsImhvc3QiOiIiLCJpZCI6IjJjMjU4M2I2LWVjZTAtNGQzZC1hN2Y1LWNmMzdjNGE2ZmE4ZCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcmtpP2VkPTIwNDgiLCJwb3J0IjozOTY0OCwicHMiOiJNeSBDb25maWc6OuKdkyIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIn0
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.86.72.106:8880?mode=gun&security=none&encryption=none&type=grpc#My%20Config%3A%3A%E2%9D%93
+vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.vetrkot.com:8880?mode=gun&security=none&encryption=none&type=grpc&sni=pqh25v7.vetrkot.com#My%20Config%3A%3A%E2%9D%93
