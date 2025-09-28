@@ -1,3 +1,0 @@
-//profile-title: base64:My Sub=
-
-vmess://eyJhZGQiOiI4OS4zMS4xMjAuMTkyIiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6IjQ0NTM3NTk1LTljY2MtNGI4My04OTM2LTVmOWFkMzIyOTAxOSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0Ijo0NDMsInBzIjoiTXkgQ29uZmlnOjrwn4em8J+HqiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
