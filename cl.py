@@ -29,9 +29,7 @@ with open(CONF_PATH,"r") as file_client_set:
 TEXT_PATH="normal.txt"
 LINK_PATH=[ "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt" , "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/location/base64/US" , "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/location/base64/DE" , "https://raw.githubusercontent.com/mahsa114232-dot/My-sub/refs/heads/main/sub.txt" , "https://raw.githubusercontent.com/hamedp-71/Sub_Checker_Creator/refs/heads/main/final.txt" ] # [ "" , "" , ... ]
 FIN_PATH="final.txt"
-FILE_HEADER_TEXT = """//profile-title: base64:2YfZhduM2LTZhyDZgdi52KfZhCDwn5iO8J+YjvCfmI4gaGFtZWRwNzE=
-//profile-update-interval: 1
-//subscription-userinfo: upload=0; download=76235908096; total=1486058684416; expire=1767212999
+FILE_HEADER_TEXT = """//profile-title: base64:My Sub=
 """
 FIN_CONF=[]
 CHECK_LOC=True
@@ -2105,6 +2103,7 @@ if __name__ == "__main__":
     process_manager.stop_all()
     print("All tasks finished successfully.")
     sys.exit()
+
 
 
 
