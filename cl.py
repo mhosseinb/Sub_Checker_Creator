@@ -19,6 +19,7 @@ import base64
 import urllib.parse
 import urllib.request
 import signal
+from clash_generator import generate_clash_config
 os.system("chmod +x hy2/hysteria")
 IPDATA_API_KEY = "45d33281a59a93aeb7227414b15038f7a5a591c7e68962aa1c37d159"
 TH_MAX_WORKER=5
@@ -2099,7 +2100,12 @@ if __name__ == "__main__":
     # مرحله ۶: ذخیره نتایج نهایی به صورت مرتب‌شده
     save_sorted_configs(FIN_CONF)
 
-    # مرحله ۷: اطمینان از توقف تمام فرآیندها در انتها
+    # مرحله ۷: تولید کانفیگ Clash
+    print("Generating Clash config...")
+    clash_proxies_count = generate_clash_config(FIN_CONF, "clash.yaml")
+    print(f"Clash config with {clash_proxies_count} proxies generated successfully.")
+
+    # مرحله ۸: اطمینان از توقف تمام فرآیندها در انتها
     process_manager.stop_all()
     print("All tasks finished successfully.")
     sys.exit()
