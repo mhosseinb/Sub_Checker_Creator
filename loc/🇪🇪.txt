@@ -1,0 +1,3 @@
+//profile-title: base64:My Sub=
+
+vless://9e43619a-5067-42f3-a82e-bed81703a771@38.180.230.78:8766?security=reality&encryption=none&pbk=EwoQCKDlHuB925c6rz8488SfSUYSMMZFcR1T6PILWWM&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=6bfe#My%20Config%3A%3A%F0%9F%87%AA%F0%9F%87%AA
