@@ -1,5 +1,0 @@
-//profile-title: base64:My Sub=
-
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638935457407159576.birjand-drc-tusacae.info:8880?mode=gun&security=none&encryption=none&type=grpc#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%B9
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.13.163:8880?encryption=none&security=none&type=grpc#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%B9
-vless://ac130aa0-373c-4456-a22c-472045ff4d2b@step.dissertationhelpspecialist.com:443?type=grpc&serviceName=twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice&authority=&security=reality&pbk=e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8&fp=firefox&sni=tgju.org&sid=7a28ae&spx=%2F#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%B9
