@@ -1,4 +1,3 @@
 //profile-title: base64:My Sub=
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@192.36.61.59:990#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%B9
-vless://b26fcfd2-cec4-491b-b83c-e839ade649e6@hield.ru:8443?type=tcp&security=reality&pbk=c7pmEcOmq_DP_i2LVMrBi85FQ-ueco4teFc2IJb8zVE&fp=chrome&sni=yahoo.com&sid=4ddc&spx=%2F&flow=xtls-rprx-vision#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%B9

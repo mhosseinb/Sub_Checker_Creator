@@ -1,4 +1,0 @@
-//profile-title: base64:My Sub=
-
-trojan://R3SuZDAZXDO3FYqxwK36l7gpSIBTFCxlzc89a7qg3S9p8BOCeACSFaA8nxeD2ZlT5Nl4O@spevoy.missionsec.us:443?security=tls&sni=spevoy.missionsec.us#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AC
-trojan://R3SuZDAZXDO3FYqxwK36l7gpSIBTFCxlzc89a7qg3S9p8BOCeACSFaA8nxeD2ZlT5Nl4O@spevoy.missionsec.us:443/?type=tcp&security=tls#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AC
