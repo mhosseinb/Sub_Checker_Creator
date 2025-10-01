@@ -1,3 +1,4 @@
 //profile-title: base64:My Sub=
 
 trojan://R3SuZDAZXDO3FYqxwK36l7gpSIBTFCxlzc89a7qg3S9p8BOCeACSFaA8nxeD2ZlT5Nl4O@spevoy.missionsec.us:443/?type=tcp&security=tls#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AC
+vmess://eyJhZGQiOiI2Mi4xNDYuMjM1LjE5MyIsInYiOiIyIiwicHMiOiJNeSBDb25maWc6OvCfh7jwn4esIiwicG9ydCI6MjgwMTEsImlkIjoiY2ZjNWE4N2YtM2MxMy00ZTI1LWI1NTYtMTc2Y2RkNmI1YzZhIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiIiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9

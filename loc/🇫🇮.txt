@@ -1,4 +1,13 @@
 //profile-title: base64:My Sub=
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptWkdVRldNQWxmV3FJNHZQNTh6dzlEQUh4UjhUWkxuZEtrdlJnSEhGYTllcVdkbng%3D@65.21.243.22:31348#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ejRYb1MwVGZ6eE5zU3FCVkFXdDdO@83.147.216.70:64519#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@104.254.140.15:8443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=T9cNlMx0Qe.SoLeNtRaA.iNfO&fp=chrome&type=ws&sni=T9cNlMx0Qe.SoLeNtRaA.iNfO#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&encryption=none&host=CuEg4R5u01.SoLeNtRaA.iNfO&type=ws&sni=CuEg4R5u01.SoLeNtRaA.iNfO#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+vless://8377aac9-f3b3-42df-a5ea-9254f37e7b34@185.75.135.224:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=chrome&spx=%2FTELEGRAM--BYA--KANAL--JKVPN&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=50#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+vless://fe837fd0-840d-4cee-9334-0dc6c2b15c1c@5.181.20.219:17422?security=reality&encryption=none&pbk=0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=33#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=CuEg4R5u01.SoLeNtRaA.iNfO&fp=chrome&type=ws&sni=CuEg4R5u01.SoLeNtRaA.iNfO#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
+vless://65552811-b845-476a-aa1f-8bc52115e8fe@65.109.217.125:8444?security=tls&encryption=none&headerType=none&type=tcp&sni=fl.v2bazzar.ir#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
 vless://c5bcf3fb-eb77-4472-8750-55b56efef262@46.62.156.154:59594?type=ws&security=none#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%AE
