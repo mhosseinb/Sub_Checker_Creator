@@ -1,7 +1,5 @@
 //profile-title: base64:My Sub=
 
-hysteria2://dongtaiwang.com@208.87.243.187:22222?security=tls&insecure=1&sni=www.bing.com#My%20Config%3A%3A%E2%9D%93
-hy2://8864aa9f-7517-4fd5-aef1-32050eb3095d@185.92.220.240:30205/?insecure=1&sni=net2025.afsharidempire.uk&obfs=salamander&obfs-password=GdQ4bgvT8RFwuWi2#My%20Config%3A%3A%E2%9D%93
-hy2://2b67ONZROv+fRVMxB94BSw%3D%3D@5.231.70.79:443/?insecure=1&sni=bing.com#My%20Config%3A%3A%F0%9F%87%A9%F0%9F%87%AA
-hy2://siEk2SjZFG@91.205.158.2:2083/?insecure=1&sni=ghasem.kotlet.org&obfs=salamander&obfs-password=ki%28rtoko%28s-maret-khamneii#My%20Config%3A%3A%E2%9D%93
 hy2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#My%20Config%3A%3A%F0%9F%87%AD%F0%9F%87%B0
+hy2://YwuvGJk36B@81.168.83.89:2083/?insecure=1&sni=kotlet.arshiacomplus.dpdns.org&obfs=salamander&obfs-password=khameniiko%40smad%40ret#My%20Config%3A%3A%E2%9D%93
+hy2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35000/?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#My%20Config%3A%3A%E2%9D%93
