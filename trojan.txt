@@ -1,6 +1,5 @@
 //profile-title: base64:My Sub=
 
-trojan://BAu7ZSyD3IZppnCOxCzaFXje3SECzZgX83e3x7yZA8SDCacyagKFlEO6O0AlTSwDDe4SF@louber.missionsec.us:443?security=tls&sni=louber.missionsec.us#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AC
-trojan://WyRE1b2elC@map.wimax.cc:8443?security=tls&alpn=h2%2Chttp%2F1.1&headerType=none&fp=safari&type=tcp&sni=map.wimax.cc#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
-trojan://02XtoczO7V@creativecommons.org:443?path=%2Fhishhhh123&security=tls&alpn=http%2F1.1&host=mooshali.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=mooshali.arshiacomplus.dpdns.org#My%20Config%3A%3A%F0%9F%87%B3%F0%9F%87%B1
+trojan://YwuvGJk36B@creativecommons.org:2053?path=%2Fyamtekodasayahhh&security=tls&alpn=http%2F1.1&host=kotlet.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=kotlet.arshiacomplus.dpdns.org#My%20Config%3A%3A%F0%9F%87%AC%F0%9F%87%A7
+trojan://YwuvGJk36B@creativecommons.org:2053?path=%2Fyamtekodasayahhh&security=tls&alpn=http%2F1.1&host=kotlet.arshiacomplus.dpdns.org&type=ws&sni=kotlet.arshiacomplus.dpdns.org#My%20Config%3A%3A%F0%9F%87%AC%F0%9F%87%A7
 trojan://02XtoczO7V@creativecommons.org:443?security=tls&sni=mooshali.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=mooshali.arshiacomplus.dpdns.org&path=%2Fhishhhh123#My%20Config%3A%3A%F0%9F%87%B3%F0%9F%87%B1
