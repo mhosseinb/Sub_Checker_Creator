@@ -1,3 +1,4 @@
 //profile-title: base64:My Sub=
 
-vless://e0042666-497b-4fde-bf4a-c5281df24d15@45.130.214.192:20992?encryption=none&security=none&type=tcp&headerType=none#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%BB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@lv.vpnsparta.pro:57456#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%BB
+vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=latvia6.clearorbitllc.com&fp=firefox&security=reality&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568#My%20Config%3A%3A%F0%9F%87%B1%F0%9F%87%BB
