@@ -3,7 +3,7 @@
       "test_url": "http://cp.cloudflare.com",
       "log_level": "warning",
       "domain_strategy": "IPIFNonMatch",
-      "allow_insecure_tls": true,
+      "allow_insecure_tls": false,
       "sniffing_enabled": true,
       "inbound_ports": {
         "socks": 10808,
@@ -41,6 +41,7 @@
       "config_url": ""
     }
   }
+
 
 
 
