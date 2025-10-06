@@ -1,3 +1,9 @@
+geox-url:
+  geoip: https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/release/geoip.dat
+  geosite: https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/release/geosite.dat
+  mmdb: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/geoip.metadb
+  asn: https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/geolite2/GeoLite2-ASN.mmdb
+
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -2627,78 +2633,14 @@ proxy-groups:
   type: select
   proxies:
   - REJECT
-rule-providers:
-  ir:
-    type: http
-    format: yaml
-    behavior: domain
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.yaml
-    path: ./ruleset/ir.yaml
-    interval: 86400
-  ads:
-    type: http
-    format: yaml
-    behavior: domain
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.yaml
-    path: ./ruleset/ads.yaml
-    interval: 86400
-  malware:
-    type: http
-    format: yaml
-    behavior: domain
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.yaml
-    path: ./ruleset/malware.yaml
-    interval: 86400
-  phishing:
-    type: http
-    format: yaml
-    behavior: domain
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.yaml
-    path: ./ruleset/phishing.yaml
-    interval: 86400
-  cryptominers:
-    type: http
-    format: yaml
-    behavior: domain
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.yaml
-    path: ./ruleset/cryptominers.yaml
-    interval: 86400
-  apps:
-    type: http
-    format: yaml
-    behavior: classical
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/apps.yaml
-    path: ./ruleset/apps.yaml
-    interval: 86400
-  ircidr:
-    type: http
-    format: yaml
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.yaml
-    path: ./ruleset/ircidr.yaml
-    interval: 86400
-  private:
-    type: http
-    format: yaml
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/private.yaml
-    path: ./ruleset/private.yaml
-    interval: 86400
-  irasn:
-    type: http
-    format: yaml
-    behavior: classical
-    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/irasn.yaml
-    path: ./ruleset/irasn.yaml
-    interval: 86400
 rules:
-- RULE-SET,private,DIRECT,no-resolve
-- RULE-SET,apps,DIRECT
-- RULE-SET,ads,REJECT
-- RULE-SET,malware,REJECT
-- RULE-SET,phishing,REJECT
-- RULE-SET,cryptominers,REJECT
-- RULE-SET,ir,DIRECT
-- RULE-SET,ircidr,DIRECT
-- RULE-SET,irasn,DIRECT
+- GEOIP,private,DIRECT,no-resolve
+- GEOSITE,category-ads-all,REJECT
+- GEOSITE,malware,REJECT
+- GEOSITE,phishing,REJECT
+- GEOSITE,cryptominers,REJECT
+- GEOIP,malware,REJECT
+- GEOIP,phishing,REJECT
+- GEOSITE,ir,DIRECT
+- GEOIP,ir,DIRECT
 - MATCH,PROXY
