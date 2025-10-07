@@ -17,6 +17,12 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
+- name: My Config::❓
+  type: ss
+  server: 104.192.226.106
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
 - name: My Config::🇺🇸
   type: vmess
   server: 15.204.103.7
@@ -30,12 +36,6 @@ proxies:
   ws-headers:
     Host: lammaland.org
   servername: lammaland.org
-- name: 'My Config::🇺🇸 #2'
-  type: ss
-  server: 104.192.226.106
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
 - name: My Config::🇩🇪
   type: vmess
   server: b-v1.888988866.xyz
@@ -60,57 +60,31 @@ proxies:
   ws-path: /a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb
   ws-headers:
     Host: y-v1.888988866.xyz
-- name: 'My Config::🇺🇸 #3'
+- name: 'My Config::🇺🇸 #2'
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::🇺🇸 #4'
+- name: 'My Config::🇺🇸 #3'
   type: ss
   server: 156.146.38.167
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::🇩🇪 #2'
-  type: vmess
-  server: fapeng.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::🇺🇸 #5'
+- name: 'My Config::🇺🇸 #4'
   type: ss
   server: 156.146.38.170
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::🇺🇸 #6'
+- name: 'My Config::🇺🇸 #5'
   type: ss
   server: 156.146.38.168
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::🇨🇦 #2'
-  type: vmess
-  server: 148.113.153.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::🇺🇸 #7'
+- name: 'My Config::🇺🇸 #6'
   type: vmess
   server: 47.253.70.234
   port: 45979
@@ -120,7 +94,7 @@ proxies:
   tls: false
   network: ws
   ws-path: /test
-- name: 'My Config::🇨🇦 #3'
+- name: 'My Config::🇨🇦 #2'
   type: vmess
   server: 15.235.85.156
   port: 443
@@ -133,163 +107,157 @@ proxies:
   ws-headers:
     Host: kampong.org
   servername: kampong.org
-- name: My Config::🇳🇱
+- name: 'My Config::❓ #2'
   type: ss
   server: 193.29.139.157
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇳🇱 #2'
-  type: ss
-  server: 151.242.251.147
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇳🇱 #3'
-  type: ss
-  server: 45.87.175.166
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇺🇸 #8'
-  type: ss
-  server: 104.167.197.25
-  port: 57456
-  cipher: chacha20-ietf-poly1305
-  password: 360e21d21977dc11
-- name: 'My Config::🇳🇱 #4'
+- name: 'My Config::❓ #3'
   type: ss
   server: beesyar.org
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 'My Config::🇳🇱 #5'
+- name: 'My Config::❓ #4'
+  type: ss
+  server: 151.242.251.147
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #5'
+  type: ss
+  server: 45.87.175.166
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 'My Config::❓ #6'
   type: ss
   server: 193.29.139.235
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: My Config::❓
+- name: 'My Config::❓ #7'
   type: ss
   server: 193.29.139.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇳🇱 #6'
-  type: ss
-  server: 151.242.251.153
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #2'
-  type: ss
-  server: 45.87.175.92
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::❓ #3'
-  type: ss
-  server: 45.158.171.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #7'
+- name: My Config::🇳🇱
   type: ss
   server: 151.242.251.131
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #4'
+- name: 'My Config::❓ #8'
+  type: ss
+  server: 45.87.175.92
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #9'
   type: ss
   server: 45.87.175.22
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::❓ #5'
+- name: 'My Config::🇳🇱 #2'
+  type: ss
+  server: 151.242.251.153
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #10'
+  type: ss
+  server: 45.158.171.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #11'
   type: ss
   server: 45.87.175.178
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 'My Config::❓ #6'
-  type: ss
-  server: 45.87.175.154
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #7'
-  type: ss
-  server: 45.87.175.157
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇳🇱 #8'
+- name: 'My Config::🇳🇱 #3'
   type: ss
   server: 193.29.139.227
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #8'
+- name: 'My Config::❓ #12'
   type: ss
-  server: 45.87.175.164
+  server: 45.87.175.154
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::❓ #9'
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #13'
+  type: ss
+  server: 45.87.175.157
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 'My Config::❓ #14'
   type: ss
   server: 151.242.251.144
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::❓ #10'
+- name: 'My Config::❓ #15'
+  type: ss
+  server: 45.87.175.164
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #16'
   type: ss
   server: 45.87.175.171
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::❓ #11'
-  type: ss
-  server: 45.87.175.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::❓ #12'
+- name: 'My Config::❓ #17'
   type: ss
   server: 45.87.175.192
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::❓ #13'
+- name: 'My Config::❓ #18'
   type: ss
-  server: 193.29.139.189
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #14'
-  type: ss
-  server: 45.87.175.181
+  server: 45.87.175.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::❓ #15'
-  type: ss
-  server: 45.87.175.28
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #9'
+- name: 'My Config::🇳🇱 #4'
   type: ss
   server: 193.29.139.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #16'
+- name: 'My Config::❓ #19'
+  type: ss
+  server: 193.29.139.189
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #20'
+  type: ss
+  server: 45.87.175.28
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #21'
+  type: ss
+  server: 45.87.175.181
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #22'
   type: ss
   server: 45.158.171.110
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇺🇸 #9'
+- name: 'My Config::❓ #23'
   type: vmess
   server: pelang.org
   port: 443
@@ -301,31 +269,24 @@ proxies:
   ws-path: linkvws
   ws-headers:
     Host: pelang.org
-- name: 'My Config::❓ #17'
-  type: vmess
-  server: 57.128.189.222
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::❓ #18'
-  type: ss
-  server: 45.158.171.60
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: My Config::🇵🇱
   type: ss
   server: pl.vpnsparta.pro
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
+- name: 'My Config::🇩🇪 #2'
+  type: vmess
+  server: a-v1.888988866.xyz
+  port: 443
+  uuid: 104556c9-797c-42e9-9bb7-7a6e9974b857
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /104556c9-797c-42e9-9bb7-7a6e9974b857
+  ws-headers:
+    Host: a-v1.888988866.xyz
 - name: My Config::🇫🇷
   type: vmess
   server: 141.94.155.224
@@ -339,19 +300,20 @@ proxies:
   ws-headers:
     Host: fapeng.org
   servername: fapeng.org
-- name: 'My Config::🇩🇪 #3'
+- name: 'My Config::❓ #24'
   type: vmess
-  server: a-v1.888988866.xyz
+  server: 57.128.189.222
   port: 443
-  uuid: 104556c9-797c-42e9-9bb7-7a6e9974b857
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /104556c9-797c-42e9-9bb7-7a6e9974b857
+  ws-path: linkvws
   ws-headers:
-    Host: a-v1.888988866.xyz
-- name: 'My Config::❓ #19'
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::❓ #25'
   type: vmess
   server: 57.128.189.211
   port: 443
@@ -370,6 +332,19 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #26'
+  type: vmess
+  server: 57.128.189.143
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
 - name: 'My Config::🇫🇷 #2'
   type: vmess
   server: 91.134.8.102
@@ -383,9 +358,46 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
-- name: 'My Config::❓ #20'
+- name: 'My Config::🇨🇦 #3'
   type: vmess
-  server: 57.128.189.143
+  server: seribus.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: seribus.org
+- name: 'My Config::🇫🇷 #3'
+  type: vmess
+  server: 91.134.8.101
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇺🇸 #7'
+  type: vmess
+  server: serkat.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: serkat.org
+- name: 'My Config::❓ #27'
+  type: vmess
+  server: 57.129.64.157
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -396,9 +408,9 @@ proxies:
   ws-headers:
     Host: lammaland.org
   servername: lammaland.org
-- name: 'My Config::🇩🇪 #4'
+- name: 'My Config::🇩🇪 #3'
   type: vmess
-  server: lammaland.org
+  server: 57.129.59.201
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -407,28 +419,24 @@ proxies:
   network: ws
   ws-path: linkvws
   ws-headers:
-    Host: lammaland.org
-- name: My Config::🇬🇧
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::❓ #28'
   type: vmess
-  server: test2.flha.ru
-  port: 80
-  uuid: 15f62abf-8cc9-4598-8d57-e4df7b499a84
+  server: 57.129.59.195
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
-  ws-path: /15f62abf-8cc9-4598-8d57-e4df7b499a84-vmess
+  ws-path: linkvws
   ws-headers:
-    Host: test2.flha.ru
-- name: My Config::🇫🇮
-  type: ss
-  server: promo18v.bystrivpn.ru
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: dAHM1pm8ag7KdlrUylQi6t
-- name: 'My Config::🇩🇪 #5'
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇩🇪 #4'
   type: vmess
-  server: 57.129.28.215
+  server: 57.129.28.64
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -439,6 +447,71 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
+- name: 'My Config::🇩🇪 #5'
+  type: vmess
+  server: 57.129.28.214
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇫🇷 #4'
+  type: vmess
+  server: 91.134.8.92
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇫🇷 #5'
+  type: vmess
+  server: 141.94.155.228
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::❓ #29'
+  type: vmess
+  server: 57.129.28.212
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇫🇷 #6'
+  type: vmess
+  server: 91.134.8.88
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
 - name: 'My Config::🇩🇪 #6'
   type: vmess
   server: 141.95.126.134
@@ -452,7 +525,20 @@ proxies:
   ws-headers:
     Host: jamekk.org
   servername: jamekk.org
-- name: 'My Config::🇺🇸 #10'
+- name: 'My Config::🇩🇪 #7'
+  type: vmess
+  server: 57.129.28.215
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: serkat.org
+  servername: serkat.org
+- name: 'My Config::🇺🇸 #8'
   type: vmess
   server: 15.204.64.211
   port: 443
@@ -465,7 +551,19 @@ proxies:
   ws-headers:
     Host: kampong.org
   servername: kampong.org
-- name: 'My Config::🇨🇦 #4'
+- name: My Config::🇵🇾
+  type: ss
+  server: 38.165.233.18
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: My Config::🇬🇧
+  type: ss
+  server: 141.98.101.178
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 'My Config::🇺🇸 #9'
   type: vmess
   server: jamekk.org
   port: 443
@@ -478,12 +576,18 @@ proxies:
   ws-headers:
     Host: jamekk.org
   servername: jamekk.org
-- name: 'My Config::🇬🇧 #2'
-  type: ss
-  server: 141.98.101.178
+- name: 'My Config::🇺🇸 #10'
+  type: vmess
+  server: kampong.org
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
 - name: 'My Config::🇺🇸 #11'
   type: vmess
   server: 15.204.64.214
@@ -497,18 +601,6 @@ proxies:
   ws-headers:
     Host: yichueng.org
   servername: yichueng.org
-- name: 'My Config::🇩🇪 #7'
-  type: vmess
-  server: kampong.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
 - name: 'My Config::🇩🇪 #8'
   type: vmess
   server: 57.129.59.202
@@ -522,26 +614,7 @@ proxies:
   ws-headers:
     Host: fapeng.org
   servername: fapeng.org
-- name: 'My Config::❓ #21'
-  type: ss
-  server: 45.158.171.146
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
 - name: 'My Config::🇵🇱 #2'
-  type: vmess
-  server: 57.128.216.125
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
-- name: 'My Config::🇵🇱 #3'
   type: vmess
   server: 146.59.118.250
   port: 443
@@ -554,6 +627,25 @@ proxies:
   ws-headers:
     Host: lammaland.org
   servername: lammaland.org
+- name: 'My Config::❓ #30'
+  type: ss
+  server: 45.158.171.146
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::🇵🇱 #3'
+  type: vmess
+  server: 57.128.216.125
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
 - name: 'My Config::🇩🇪 #9'
   type: vmess
   server: 57.129.25.26
@@ -580,7 +672,7 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
-- name: 'My Config::🇩🇪 #11'
+- name: 'My Config::🇫🇷 #7'
   type: vmess
   server: yichueng.org
   port: 443
@@ -593,33 +685,19 @@ proxies:
   ws-headers:
     Host: yichueng.org
   servername: yichueng.org
-- name: My Config::🇲🇾
-  type: vmess
-  server: 47.250.159.134
-  port: 28293
-  uuid: ff9ad07c-e1b4-467f-90bc-9b067f47dd5c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
+- name: My Config::🇯🇵
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: My Config::🇷🇺
   type: ss
   server: 45.139.24.24
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
-- name: 'My Config::❓ #22'
-  type: vmess
-  server: 8.220.188.238
-  port: 59134
-  uuid: b5a82c1d-0d98-4d4d-a499-5d04e4bb114d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇲🇾 #2'
+- name: My Config::🇲🇾
   type: vmess
   server: 47.250.112.93
   port: 59277
@@ -629,19 +707,7 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇩🇪 #12'
-  type: ss
-  server: 95.163.176.37
-  port: 8506
-  cipher: chacha20-ietf-poly1305
-  password: eUh4lSpi7nOYj0vSrqLUh0
-- name: 'My Config::🇵🇱 #4'
-  type: ss
-  server: 92.118.205.228
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇲🇾 #3'
+- name: 'My Config::🇲🇾 #2'
   type: vmess
   server: 47.254.240.75
   port: 21572
@@ -651,23 +717,13 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: My Config::🇪🇸
+- name: 'My Config::🇩🇪 #11'
   type: ss
-  server: 45.154.206.192
-  port: 990
+  server: 95.163.176.37
+  port: 8506
   cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #23'
-  type: vmess
-  server: 47.74.10.111
-  port: 34029
-  uuid: 2e80d0c8-16c8-420a-b86c-c2e7e2e4f764
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::❓ #24'
+  password: eUh4lSpi7nOYj0vSrqLUh0
+- name: My Config::🇭🇰
   type: vmess
   server: 8.210.230.179
   port: 12125
@@ -677,31 +733,31 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::❓ #25'
+- name: 'My Config::🇵🇱 #4'
+  type: ss
+  server: 92.118.205.228
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: My Config::🇪🇸
+  type: ss
+  server: 45.154.206.192
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #31'
   type: ss
   server: 103.163.218.2
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #26'
-  type: ss
-  server: 185.126.237.38
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇩🇪 #13'
+- name: 'My Config::🇩🇪 #12'
   type: ss
   server: 185.177.229.245
   port: 1866
   cipher: chacha20-ietf-poly1305
   password: oXGp1+ihlfKg826H
-- name: 'My Config::❓ #27'
-  type: ss
-  server: 193.29.139.202
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::❓ #28'
+- name: 'My Config::❓ #32'
   type: vmess
   server: 209.126.84.189
   port: 443
@@ -713,29 +769,13 @@ proxies:
   ws-path: /vmessws
   ws-headers:
     Host: 209.126.84.189
-- name: My Config::🇭🇰
-  type: vmess
-  server: 47.239.81.113
-  port: 28421
-  uuid: 10f1cf8b-065b-49bd-9c2c-46e64ed08b3d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇨🇦 #5'
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
-  ws-headers:
-    Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 'My Config::❓ #29'
+- name: 'My Config::❓ #33'
+  type: ss
+  server: 185.126.237.38
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #34'
   type: vmess
   server: v2ray.codefyinc.com
   port: 443
@@ -747,61 +787,73 @@ proxies:
   ws-path: /vmessws
   ws-headers:
     Host: v2ray.codefyinc.com
-- name: 'My Config::🇭🇰 #2'
+- name: 'My Config::🇨🇦 #4'
   type: vmess
-  server: 47.242.214.178
-  port: 52983
-  uuid: 72a13e0b-5e55-4d6f-9404-db2f0a482f97
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::❓ #30'
+  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
+  ws-headers:
+    Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+- name: 'My Config::❓ #35'
   type: ss
   server: 181.119.30.20
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇳🇱 #10'
+- name: 'My Config::🇳🇱 #5'
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
-- name: 'My Config::❓ #31'
+- name: 'My Config::❓ #36'
   type: ss
   server: 45.87.175.188
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::❓ #32'
+- name: 'My Config::🇭🇰 #2'
   type: vmess
-  server: 8.217.34.12
-  port: 62312
-  uuid: e2bdea80-bb43-4eac-a663-9d615b3a6c3f
+  server: 47.76.157.234
+  port: 14479
+  uuid: 90606c14-cba4-43ff-9586-9edd8bef21a4
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::❓ #33'
-  type: ss
-  server: 193.29.139.240
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::🇭🇰 #3'
   type: vmess
-  server: 8.218.8.84
-  port: 23326
-  uuid: 871d04df-fc58-470a-baca-daae28869164
+  server: 47.76.157.234
+  port: 55125
+  uuid: 87227bd9-1506-4d48-bd6b-0b80a8c2aae7
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
 - name: 'My Config::🇭🇰 #4'
+  type: vmess
+  server: 8.217.220.30
+  port: 62236
+  uuid: 1d250ec9-412a-4b9b-bbdc-cdfcd76620b0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::❓ #37'
+  type: ss
+  server: 193.29.139.240
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇭🇰 #5'
   type: vmess
   server: 47.76.233.2
   port: 37660
@@ -811,29 +863,49 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::❓ #34'
-  type: ss
-  server: 45.158.171.70
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇭🇰 #5'
+- name: 'My Config::🇭🇰 #6'
   type: vmess
-  server: 47.239.81.113
-  port: 17002
-  uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
+  server: 8.217.34.12
+  port: 62312
+  uuid: e2bdea80-bb43-4eac-a663-9d615b3a6c3f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇳🇱 #11'
+- name: 'My Config::🇭🇰 #7'
+  type: vmess
+  server: 8.218.8.84
+  port: 23326
+  uuid: 871d04df-fc58-470a-baca-daae28869164
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::🇭🇰 #8'
+  type: vmess
+  server: 8.217.187.15
+  port: 56950
+  uuid: 256c7d4c-6096-40bd-9f01-f7a57af1b2d6
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::🇳🇱 #6'
   type: ss
   server: 208.67.105.196
   port: 42029
   cipher: chacha20-ietf-poly1305
   password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
-- name: 'My Config::🇭🇰 #6'
+- name: 'My Config::❓ #38'
+  type: ss
+  server: 45.158.171.70
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇭🇰 #9'
   type: vmess
   server: 47.239.204.193
   port: 33611
@@ -843,7 +915,7 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #7'
+- name: 'My Config::🇭🇰 #10'
   type: vmess
   server: 8.217.187.15
   port: 59542
@@ -853,29 +925,19 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::❓ #35'
+- name: 'My Config::🇭🇰 #11'
   type: ss
   server: 203.23.128.33
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #36'
+- name: 'My Config::❓ #39'
   type: ss
   server: 223.165.4.173
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇭🇰 #8'
-  type: vmess
-  server: 47.238.252.154
-  port: 58867
-  uuid: 7b80e36f-b082-46fc-ae59-6bb0dd17eee8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #9'
+- name: 'My Config::🇭🇰 #12'
   type: vmess
   server: 8.217.187.15
   port: 31254
@@ -885,62 +947,30 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #10'
-  type: vmess
-  server: 47.76.118.235
-  port: 35407
-  uuid: b19fe95d-32ac-416a-9d46-d76d03f91873
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇺🇸 #12'
-  type: ss
-  server: 23.157.40.101
-  port: 8000
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
 - name: My Config::🇮🇳
   type: ss
   server: 103.111.114.29
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
+- name: 'My Config::🇨🇦 #5'
+  type: ss
+  server: ca225.vpnbook.com
+  port: 80
+  cipher: chacha20-ietf-poly1305
+  password: JIhN6rBKkaEboLNXVSv5rq
+- name: 'My Config::🇺🇸 #12'
+  type: ss
+  server: 23.157.40.101
+  port: 8000
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
 - name: 'My Config::🇨🇦 #6'
   type: ss
   server: 142.4.216.225
   port: 80
   cipher: chacha20-ietf-poly1305
   password: JIhN6rBKkaEboLNXVSv5rq
-- name: 'My Config::🇭🇰 #11'
-  type: vmess
-  server: 47.76.118.235
-  port: 4656
-  uuid: b32e6f10-a209-4614-a2da-5c3c2769c507
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇨🇦 #7'
-  type: ss
-  server: ca225.vpnbook.com
-  port: 80
-  cipher: chacha20-ietf-poly1305
-  password: JIhN6rBKkaEboLNXVSv5rq
-- name: 'My Config::🇺🇸 #13'
-  type: vmess
-  server: s1.db-link03.top
-  port: 8880
-  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /dabai.in?=4e43bd24150af811e255fc226bef0a46
-  ws-headers:
-    Host: 4e43bd24150af811e255fc226bef0a46.s1.db-link03.top
 - name: My Config::🇦🇷
   type: ss
   server: 38.54.45.129
@@ -953,900 +983,439 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #37'
-  type: vmess
-  server: 8.217.34.12
-  port: 20918
-  uuid: a434fe75-2165-4652-af11-ac58403ebf86
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
 - name: My Config::🇵🇹
   type: ss
   server: 185.231.233.173
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇫🇮 #2'
-  type: ss
-  server: 83.147.216.70
-  port: 64519
-  cipher: chacha20-ietf-poly1305
-  password: 9z4XoS0TfzxNsSqBVAWt7N
-- name: 'My Config::❓ #38'
-  type: ss
-  server: 185.192.124.188
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #39'
-  type: ss
-  server: 45.87.175.65
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::❓ #40'
   type: ss
-  server: 45.87.175.157
+  server: 193.29.139.251
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇮🇳 #2'
-  type: ss
-  server: 82.180.146.173
-  port: 35652
-  cipher: aes-128-gcm
-  password: 93498539-7838-4836-b9b3-8311ffc79bcf
-- name: 'My Config::🇮🇳 #3'
-  type: ss
-  server: 82.180.146.173
-  port: 30607
-  cipher: aes-128-gcm
-  password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::❓ #41'
-  type: ss
-  server: 45.87.175.10
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: My Config::🇱🇹
-  type: ss
-  server: 192.36.61.59
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #42'
-  type: ss
-  server: 45.87.175.170
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #43'
-  type: ss
-  server: 45.87.175.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::❓ #44'
-  type: ss
-  server: 45.87.175.167
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #45'
-  type: ss
-  server: 45.87.175.190
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: My Config::🇹🇭
-  type: ss
-  server: 119.59.98.58
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #46'
-  type: ss
-  server: 45.87.175.183
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::❓ #47'
-  type: ss
-  server: 193.29.139.177
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::❓ #48'
-  type: ss
-  server: 45.87.175.165
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #49'
-  type: ss
-  server: 176.103.53.105
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇬🇧 #3'
-  type: ss
-  server: 89.185.84.185
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: MGRRe7tTNdT59gifkMqof0
-- name: 'My Config::❓ #50'
-  type: ss
-  server: 185.47.252.251
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇳🇱 #12'
-  type: ss
-  server: 212.34.140.184
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 0NeN5ta7FLa5B9DLytU0um
-- name: 'My Config::🇷🇺 #2'
-  type: ss
-  server: ru.vmagnum.win
-  port: 57456
-  cipher: chacha20-ietf-poly1305
-  password: 360e21d21977dc11
-- name: My Config::🇱🇻
-  type: ss
-  server: 216.173.70.187
-  port: 57456
-  cipher: chacha20-ietf-poly1305
-  password: 360e21d21977dc11
-- name: 'My Config::❓ #51'
-  type: ss
-  server: 193.29.139.209
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇲🇾 #4'
-  type: ss
-  server: 103.243.215.17
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇳🇱 #13'
-  type: ss
-  server: 77.238.224.29
-  port: 55702
-  cipher: chacha20-ietf-poly1305
-  password: S2QudBxi0vRySw4YRLloPq
-- name: 'My Config::❓ #52'
-  type: ss
-  server: 71.19.148.143
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: p78naCf2EfOlRSLTX0wFVx
-- name: 'My Config::❓ #53'
   type: ss
   server: pupas-shirting-unsung.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: p78naCf2EfOlRSLTX0wFVx
-- name: 'My Config::🇱🇻 #2'
+- name: 'My Config::❓ #42'
   type: ss
-  server: lv.vpnsparta.pro
-  port: 57456
+  server: 45.87.175.65
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: 360e21d21977dc11
-- name: 'My Config::🇺🇸 #14'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #43'
   type: ss
-  server: us.vmagnum.win
-  port: 57456
+  server: 45.87.175.10
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: 360e21d21977dc11
-- name: 'My Config::❓ #54'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #44'
   type: ss
-  server: 45.87.175.185
+  server: 45.87.175.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::🇬🇧 #2'
+  type: ss
+  server: admin.c1.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1kVr0KATIJI7mwOF
+- name: 'My Config::🇬🇧 #3'
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+- name: 'My Config::🇨🇦 #7'
+  type: ss
+  server: 142.4.216.225
+  port: 80
+  cipher: chacha20-ietf-poly1305
+  password: JIhN6rBKkaEboLNXVSv5rq
 - name: 'My Config::🇬🇧 #4'
   type: ss
   server: azjnac1.uksouth.cloudapp.azure.com
   port: 443
   cipher: chacha20-ietf-poly1305
   password: b2EJuconC460KllN
-- name: 'My Config::❓ #55'
+- name: 'My Config::🇯🇵 #2'
   type: ss
-  server: vip.nl-16-07.galaxymc-ssh.ir
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇬🇧 #5'
+  server: 153.121.51.214
+  port: 10087
+  cipher: aes-128-gcm
+  password: '10086'
+- name: 'My Config::❓ #45'
   type: ss
-  server: admin.c2.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-- name: 'My Config::❓ #56'
-  type: ss
-  server: 193.29.139.251
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇺🇸 #15'
-  type: ss
-  server: 23.154.136.213
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: My Config::🇨🇾
-  type: ss
-  server: 134.255.210.49
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #57'
-  type: ss
-  server: 45.87.175.181
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: My Config::🇲🇽
-  type: ss
-  server: 147.78.1.27
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: My Config::🇮🇱
-  type: ss
-  server: 169.150.202.174
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #58'
-  type: ss
-  server: ltnl11.saint.ydns.eu
+  server: 45.87.175.171
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇫🇮 #3'
-  type: ss
-  server: 83.147.216.70
-  port: 64519
-  cipher: chacha20-ietf-poly1305
-  password: YXgS8ComTam7qoesPlzlMo
-- name: 'My Config::🇬🇧 #6'
+- name: 'My Config::🇬🇧 #5'
   type: ss
   server: azjnac1.uksouth.cloudapp.azure.com
   port: 443
   cipher: chacha20-ietf-poly1305
   password: ksg929BWf1K220dG
-- name: 'My Config::❓ #59'
-  type: ss
-  server: 45.87.175.188
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 'My Config::❓ #60'
-  type: ss
-  server: 45.87.175.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 'My Config::🇬🇧 #7'
-  type: ss
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: 'My Config::🇬🇧 #8'
-  type: ss
-  server: c1.nastuh.link
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: WiitXs6BHZgSNlit
-- name: 'My Config::🇫🇮 #4'
+- name: My Config::🇫🇮
   type: ss
   server: 83.147.216.70
   port: 64519
   cipher: chacha20-ietf-poly1305
   password: UlT89D0rvcr05tKft1NB5a
-- name: 'My Config::❓ #61'
+- name: 'My Config::❓ #46'
   type: ss
-  server: 45.87.175.154
+  server: 45.87.175.166
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::❓ #62'
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::🇬🇧 #6'
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 'My Config::🇬🇧 #7'
+  type: ss
+  server: c1.nastuh.link
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: WiitXs6BHZgSNlit
+- name: 'My Config::❓ #47'
+  type: ss
+  server: 45.87.175.58
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #48'
+  type: ss
+  server: 45.87.175.167
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #49'
   type: ss
   server: 45.87.175.157
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #50'
+  type: ss
+  server: 45.87.175.200
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #51'
+  type: ss
+  server: 45.87.175.164
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+- name: 'My Config::🇮🇳 #2'
+  type: ss
+  server: 82.180.146.173
+  port: 35652
+  cipher: aes-128-gcm
+  password: 93498539-7838-4836-b9b3-8311ffc79bcf
+- name: 'My Config::🇲🇾 #3'
+  type: ss
+  server: 103.243.215.17
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #52'
+  type: ss
+  server: 45.87.175.180
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: My Config::🇹🇭
+  type: ss
+  server: 119.59.98.58
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #53'
+  type: ss
+  server: 185.192.124.188
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #54'
+  type: ss
+  server: 193.29.139.177
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #55'
+  type: ss
+  server: 45.87.175.154
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 'My Config::❓ #56'
+  type: ss
+  server: 45.87.175.157
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
 - name: 'My Config::🇦🇷 #2'
   type: ss
   server: 190.103.176.123
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 8taL4CnyG3SH5EEs7PE75c
-- name: 'My Config::❓ #63'
+- name: 'My Config::🇫🇮 #2'
   type: ss
-  server: ltnl13.saint.ydns.eu
+  server: 83.147.216.70
+  port: 64519
+  cipher: chacha20-ietf-poly1305
+  password: 9z4XoS0TfzxNsSqBVAWt7N
+- name: 'My Config::❓ #57'
+  type: ss
+  server: 45.87.175.185
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::❓ #64'
+- name: 'My Config::❓ #58'
   type: ss
-  server: ltnl12.saint.ydns.eu
+  server: 45.87.175.183
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::❓ #65'
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #59'
   type: ss
-  server: 45.158.171.146
+  server: 45.87.175.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #60'
+  type: ss
+  server: 45.87.175.165
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::❓ #66'
+- name: 'My Config::❓ #61'
   type: ss
-  server: ltnl15.saint.ydns.eu
+  server: 192.71.166.102
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇳🇱 #7'
+  type: ss
+  server: promo1o.bystrivpn.ru
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0NeN5ta7FLa5B9DLytU0um
+- name: 'My Config::❓ #62'
+  type: ss
+  server: 176.103.53.105
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #63'
+  type: ss
+  server: 45.87.175.170
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇺🇸 #16'
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #64'
   type: ss
-  server: 23.157.40.101
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
+  server: 45.87.175.175
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 'My Config::❓ #65'
+  type: ss
+  server: 45.87.175.190
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::🇳🇱 #8'
+  type: ss
+  server: beesyar.org
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 'My Config::🇬🇧 #8'
+  type: ss
+  server: 89.185.84.185
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: MGRRe7tTNdT59gifkMqof0
+- name: My Config::🇱🇻
+  type: ss
+  server: lv.vpnsparta.pro
+  port: 57456
+  cipher: chacha20-ietf-poly1305
+  password: 360e21d21977dc11
+- name: 'My Config::🇱🇻 #2'
+  type: ss
+  server: 216.173.70.187
+  port: 57456
+  cipher: chacha20-ietf-poly1305
+  password: 360e21d21977dc11
+- name: 'My Config::🇷🇺 #2'
+  type: ss
+  server: ru.vmagnum.win
+  port: 57456
+  cipher: chacha20-ietf-poly1305
+  password: 360e21d21977dc11
+- name: 'My Config::❓ #66'
+  type: ss
+  server: 71.19.148.143
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: p78naCf2EfOlRSLTX0wFVx
 - name: 'My Config::❓ #67'
   type: ss
-  server: 193.29.139.251
+  server: 193.29.139.141
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::❓ #68'
   type: ss
-  server: 103.163.218.2
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::❓ #69'
-  type: ss
-  server: 45.87.175.199
+  server: ltnl17.saint.ydns.eu
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
-- name: My Config::🇯🇵
+- name: 'My Config::🇺🇸 #13'
   type: ss
-  server: 153.121.51.214
-  port: 10087
-  cipher: aes-128-gcm
-  password: '10086'
+  server: us.vmagnum.win
+  port: 57456
+  cipher: chacha20-ietf-poly1305
+  password: 360e21d21977dc11
+- name: 'My Config::🇳🇱 #9'
+  type: ss
+  server: 77.238.224.29
+  port: 55702
+  cipher: chacha20-ietf-poly1305
+  password: S2QudBxi0vRySw4YRLloPq
+- name: 'My Config::❓ #69'
+  type: ss
+  server: ltnl12.saint.ydns.eu
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #70'
+  type: ss
+  server: vip.nl-16-07.galaxymc-ssh.ir
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 'My Config::❓ #71'
+  type: ss
+  server: 193.29.139.209
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::❓ #72'
+  type: ss
+  server: 193.29.139.251
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇺🇸 #14'
+  type: ss
+  server: 23.154.136.213
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 'My Config::❓ #73'
+  type: ss
+  server: ltnl14.saint.ydns.eu
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+- name: My Config::🇮🇱
+  type: ss
+  server: 169.150.202.174
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::❓ #74'
+  type: ss
+  server: ltnl13.saint.ydns.eu
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::❓ #75'
+  type: ss
+  server: ltnl15.saint.ydns.eu
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: My Config::🇲🇽
+  type: ss
+  server: 147.78.1.27
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
 - name: 'My Config::🇬🇧 #9'
   type: ss
   server: c1.nastuh.link
   port: 443
   cipher: chacha20-ietf-poly1305
   password: lntfVeiB7cy3Hm1O
-- name: 'My Config::🇫🇷 #3'
+- name: 'My Config::❓ #76'
+  type: ss
+  server: ltnl11.saint.ydns.eu
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::🇫🇷 #8'
   type: ss
   server: 62.210.88.22
   port: 443
   cipher: chacha20-ietf-poly1305
   password: GJnXSp5ujx82Ch8aLGxUXp
-- name: 'My Config::🇺🇸 #17'
+- name: 'My Config::🇺🇸 #15'
   type: ss
   server: 37.19.198.244
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::❓ #70'
-  type: ss
-  server: 153.121.43.183
-  port: 10087
-  cipher: aes-128-gcm
-  password: '10086'
-- name: 'My Config::❓ #71'
-  type: ss
-  server: 193.29.139.188
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::🇬🇧 #10'
   type: ss
   server: adas-polo-ba-mahi.kotlet.org
   port: 2053
   cipher: 2022-blake3-aes-256-gcm
   password: 5CX5dFRzQ29X1CTxHC/vsB35i7lLe82HeloZ3LBBbRw=:lVWD5jwK0Z2r7SodPX41giubPaDi4IrgkTfQ+ejUaFw=
-- name: 'My Config::❓ #72'
-  type: ss
-  server: 160.16.123.124
-  port: 10087
-  cipher: aes-128-gcm
-  password: '10086'
-- name: 'My Config::❓ #73'
+- name: 'My Config::❓ #77'
   type: ss
   server: 45.87.175.178
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇯🇵 #2'
+- name: 'My Config::❓ #78'
+  type: ss
+  server: 160.16.123.124
+  port: 10087
+  cipher: aes-128-gcm
+  password: '10086'
+- name: 'My Config::🇯🇵 #3'
   type: ss
   server: 149.22.87.240
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::🇺🇸 #18'
+- name: My Config::🇸🇪
   type: ss
-  server: 154.44.15.133
-  port: 44642
-  cipher: aes-256-gcm
-  password: iHapGY8XoW
-- name: 'My Config::🇬🇧 #11'
-  type: ss
-  server: admin.c1.havij.co
-  port: 443
+  server: 65.20.115.194
+  port: 800
   cipher: chacha20-ietf-poly1305
-  password: 1kVr0KATIJI7mwOF
-- name: 'My Config::🇺🇸 #19'
-  type: ss
-  server: 173.244.56.9
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 'My Config::🇸🇬 #2'
-  type: ss
-  server: 174.138.22.94
-  port: 8443
-  cipher: aes-256-gcm
-  password: D8wwPu9Txlgaws2+pHxzIS8gx6s6RWw7blftnEcJfhA=
-- name: 'My Config::🇺🇸 #20'
-  type: vmess
-  server: 193.124.24.247
-  port: 6513
-  uuid: 5cf7fcbc-e2c1-42c4-d0d7-79c45a7d588d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇩🇪 #14'
-  type: vmess
-  server: 57.129.25.20
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::🇷🇺 #3'
-  type: vmess
-  server: 45.67.230.79
-  port: 11052
-  uuid: 314185f7-931d-4656-922d-0857e7afd224
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: /JOKERRVPN_BIA_CHANEL@JOKERRVPN
-- name: 'My Config::🇫🇷 #4'
-  type: vmess
-  server: 91.134.8.88
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::🇩🇪 #15'
-  type: vmess
-  server: 57.129.59.195
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
-- name: 'My Config::🇩🇪 #16'
-  type: vmess
-  server: 57.129.28.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::❓ #74'
-  type: vmess
-  server: v2ray.codefyinc.com
-  port: 443
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /vmessws
-  ws-headers:
-    Host: v2ray.codefyinc.com
-  servername: v2ray.codefyinc.com
-- name: 'My Config::🇩🇪 #17'
-  type: vmess
-  server: 141.95.126.134
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: jamekk.org
-  servername: jamekk.org
-- name: 'My Config::🇺🇸 #21'
-  type: vmess
-  server: seribus.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: seribus.org
-  servername: seribus.org
-- name: 'My Config::🇫🇷 #5'
-  type: vmess
-  server: 141.94.155.224
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::🇺🇸 #22'
-  type: vmess
-  server: 15.204.64.211
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
-- name: 'My Config::🇨🇦 #8'
-  type: vmess
-  server: 15.235.83.228
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::🇩🇪 #18'
-  type: vmess
-  server: 57.129.28.212
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::🇨🇦 #9'
-  type: vmess
-  server: 148.113.153.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::🇫🇷 #6'
-  type: vmess
-  server: 91.134.8.92
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::🇩🇪 #19'
-  type: vmess
-  server: 57.129.28.64
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: serkat.org
-  servername: serkat.org
-- name: 'My Config::🇺🇸 #23'
-  type: vmess
-  server: 38.12.83.217
-  port: 30002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇩🇪 #20'
-  type: vmess
-  server: 57.129.59.193
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: serkat.org
-  servername: serkat.org
-- name: 'My Config::❓ #75'
-  type: vmess
-  server: 91.99.185.216
-  port: 20086
-  uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-- name: 'My Config::🇩🇪 #21'
-  type: vmess
-  server: 57.129.28.216
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::🇫🇷 #7'
-  type: vmess
-  server: 91.134.8.101
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: My Config::🇹🇼
-  type: vmess
-  server: 103.61.139.137
-  port: 20521
-  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-- name: My Config::🇨🇳
-  type: vmess
-  server: 106.14.75.114
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::❓ #76'
-  type: vmess
-  server: 209.126.84.189
-  port: 443
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmessws
-  ws-headers:
-    Host: 209.126.84.189
-- name: 'My Config::❓ #77'
-  type: vmess
-  server: 85.195.101.122
-  port: 40878
-  uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇩🇪 #22'
-  type: vmess
-  server: 57.129.64.157
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::❓ #78'
-  type: vmess
-  server: 57.128.189.143
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::🇺🇸 #24'
-  type: vmess
-  server: 15.204.64.214
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: My Config::🇦🇺
-  type: vmess
-  server: 51.161.130.101
-  port: 550
-  uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇺🇸 #25'
-  type: vmess
-  server: 64.81.118.54
-  port: 20521
-  uuid: 375c4b8f-b646-45c1-96a8-e9d86d4163e5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
+  password: tvX1v#NSFP_LG_bJ
 - name: 'My Config::❓ #79'
-  type: vmess
-  server: 57.128.189.211
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::🇩🇪 #23'
-  type: vmess
-  server: 57.129.59.199
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
-- name: 'My Config::🇫🇷 #8'
-  type: vmess
-  server: 141.94.155.228
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
-- name: 'My Config::🇩🇪 #24'
-  type: vmess
-  server: 57.129.59.202
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::🇮🇳 #4'
-  type: vmess
-  server: 94.136.185.230
-  port: 10534
-  uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::❓ #80'
-  type: vmess
-  server: 57.128.189.222
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::🇩🇪 #25'
-  type: vmess
-  server: 57.129.24.130
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: serkat.org
-  servername: serkat.org
-- name: 'My Config::🇨🇦 #10'
+  type: ss
+  server: 153.121.43.183
+  port: 10087
+  cipher: aes-128-gcm
+  password: '10086'
+- name: 'My Config::🇩🇪 #13'
   type: vmess
   server: yichueng.org
   port: 443
@@ -1859,18 +1428,9 @@ proxies:
   ws-headers:
     Host: yichueng.org
   servername: yichueng.org
-- name: 'My Config::🇸🇬 #3'
+- name: 'My Config::🇫🇷 #9'
   type: vmess
-  server: 62.146.235.193
-  port: 28011
-  uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇩🇪 #26'
-  type: vmess
-  server: 57.129.64.199
+  server: 141.94.155.228
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -1879,40 +1439,20 @@ proxies:
   network: ws
   ws-path: linkvws
   ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇨🇦 #11'
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇺🇸 #16'
   type: vmess
-  server: 148.113.176.192
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  servername: fapeng.org
-- name: 'My Config::🇨🇦 #12'
-  type: vmess
-  server: 51.79.69.203
-  port: 550
-  uuid: 5f4dc799-fa0d-47a0-946b-8ad0ef562095
+  server: 38.12.83.217
+  port: 30002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
   cipher: auto
   tls: false
   network: tcp
-- name: 'My Config::🇸🇬 #4'
+- name: 'My Config::❓ #80'
   type: vmess
-  server: 82.197.69.131
-  port: 39674
-  uuid: 5a89386a-827b-4f54-8778-2f1b5122c6ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇩🇪 #27'
-  type: vmess
-  server: fapeng.org
+  server: 57.129.28.212
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -1923,17 +1463,66 @@ proxies:
   ws-headers:
     Host: fapeng.org
   servername: fapeng.org
-- name: 'My Config::🇭🇰 #12'
+- name: 'My Config::🇺🇸 #17'
   type: vmess
-  server: 47.238.252.154
-  port: 58867
-  uuid: 7b80e36f-b082-46fc-ae59-6bb0dd17eee8
+  server: serkat.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: serkat.org
+  servername: serkat.org
+- name: 'My Config::🇩🇪 #14'
+  type: vmess
+  server: 57.129.59.202
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇺🇸 #18'
+  type: vmess
+  server: 15.204.64.214
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇭🇰 #13'
+  type: vmess
+  server: 45.116.78.152
+  port: 7151
+  uuid: a3a95415-b7f3-4f1f-9486-bee6a68feaa2
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇵🇱 #5'
+- name: 'My Config::🇯🇵 #4'
+  type: vmess
+  server: 43.246.198.134
+  port: 11683
+  uuid: c040f159-377d-4b62-aaf6-994460d3ee4e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::🇺🇸 #19'
   type: vmess
   server: jamekk.org
   port: 443
@@ -1946,59 +1535,17 @@ proxies:
   ws-headers:
     Host: jamekk.org
   servername: jamekk.org
-- name: 'My Config::🇩🇪 #28'
+- name: 'My Config::🇭🇰 #14'
   type: vmess
-  server: lammaland.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 47.239.141.74
+  port: 11886
+  uuid: 0d36b017-6d7c-493d-bb12-55c34faf6efc
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: lammaland.org
-  servername: lammaland.org
-- name: 'My Config::🇨🇦 #13'
-  type: vmess
-  server: kampong.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
-- name: 'My Config::🇵🇱 #6'
-  type: vmess
-  server: pelang.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #29'
-  type: vmess
-  server: serkat.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-  servername: serkat.org
-- name: 'My Config::🇺🇸 #26'
+  ws-path: /
+- name: 'My Config::🇺🇸 #20'
   type: vmess
   server: 15.204.234.200
   port: 41100
@@ -2007,30 +1554,7 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-  ws-path: /
-- name: 'My Config::🇭🇰 #13'
-  type: vmess
-  server: 47.242.214.178
-  port: 24497
-  uuid: 0f62d166-39e5-4d3d-89b6-5c6490b4f4d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇺🇸 #27'
-  type: vmess
-  server: s1.db-link03.top
-  port: 80
-  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /dabai.in?=f7f48a0f7685b208efdf4956ae5eb0a0
-  ws-headers:
-    Host: f7f48a0f7685b208efdf4956ae5eb0a0.s1.db-link03.top
-- name: 'My Config::🇺🇸 #28'
+- name: 'My Config::🇺🇸 #21'
   type: vmess
   server: 15.204.11.190
   port: 15361
@@ -2039,30 +1563,40 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-- name: 'My Config::🇩🇪 #30'
+- name: 'My Config::🇩🇪 #15'
   type: vmess
-  server: 57.129.59.200
+  server: a-v1.888988866.xyz
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 104556c9-797c-42e9-9bb7-7a6e9974b857
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /linkvws
+  ws-path: /104556c9-797c-42e9-9bb7-7a6e9974b857
   ws-headers:
-    Host: serkat.org
-  servername: serkat.org
-- name: 'My Config::🇭🇰 #14'
+    Host: a-v1.888988866.xyz
+- name: 'My Config::🇸🇬 #2'
   type: vmess
-  server: 47.76.118.235
-  port: 7775
-  uuid: 0f1c2d37-adb4-4677-9727-dbb1b8e2b794
+  server: y-v1.888988866.xyz
+  port: 443
+  uuid: a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb
+  ws-headers:
+    Host: y-v1.888988866.xyz
+- name: 'My Config::❓ #81'
+  type: vmess
+  server: 82.197.69.131
+  port: 39674
+  uuid: 5a89386a-827b-4f54-8778-2f1b5122c6ef
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇲🇾 #5'
+  network: tcp
+- name: 'My Config::🇲🇾 #4'
   type: vmess
   server: 45.128.54.84
   port: 37313
@@ -2071,63 +1605,16 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-- name: 'My Config::🇨🇦 #14'
+- name: 'My Config::🇮🇳 #3'
   type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  server: 94.136.185.230
+  port: 10534
+  uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: My Config::🇵🇰
-  type: vmess
-  server: 38.60.217.146
-  port: 443
-  uuid: 26ae36a4-e21f-48ae-e90b-5adf271b046e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-- name: 'My Config::🇭🇰 #15'
-  type: vmess
-  server: 45.116.78.152
-  port: 7151
-  uuid: a3a95415-b7f3-4f1f-9486-bee6a68feaa2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇵🇱 #7'
-  type: vmess
-  server: 146.59.70.146
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::🇩🇪 #31'
-  type: vmess
-  server: 57.129.28.213
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /linkvws
-  ws-headers:
-    Host: fapeng.org
-  servername: fapeng.org
-- name: 'My Config::🇨🇦 #15'
+  network: tcp
+- name: 'My Config::🇨🇦 #8'
   type: vmess
   server: 15.235.83.227
   port: 443
@@ -2140,7 +1627,20 @@ proxies:
   ws-headers:
     Host: lammaland.org
   servername: lammaland.org
-- name: 'My Config::🇺🇸 #29'
+- name: 'My Config::🇫🇷 #10'
+  type: vmess
+  server: 91.134.8.100
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇺🇸 #22'
   type: vmess
   server: 40.160.16.219
   port: 443
@@ -2153,140 +1653,7 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
-- name: 'My Config::❓ #81'
-  type: vmess
-  server: 57.128.189.206
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #32'
-  type: vmess
-  server: 57.129.2.121
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #33'
-  type: vmess
-  server: 57.129.25.24
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #34'
-  type: vmess
-  server: 57.129.28.68
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #35'
-  type: vmess
-  server: 57.129.59.194
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::🇺🇸 #30'
-  type: vmess
-  server: 38.143.66.81
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: seribus.org
-  servername: seribus.org
-- name: 'My Config::🇹🇼 #2'
-  type: vmess
-  server: 103.61.139.137
-  port: 20521
-  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-- name: 'My Config::🇩🇪 #36'
-  type: vmess
-  server: 51.68.191.233
-  port: 80
-  uuid: f0eda072-9ae8-494c-a495-215fa5729467
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess/
-- name: 'My Config::🇩🇪 #37'
-  type: vmess
-  server: 57.129.28.69
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: 'My Config::❓ #82'
-  type: vmess
-  server: 57.128.189.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: My Config::🇦🇪
-  type: vmess
-  server: 89.31.120.192
-  port: 443
-  uuid: 44537595-9ccc-4b83-8936-5f9ad3229019
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 'My Config::🇺🇸 #31'
+- name: 'My Config::🇺🇸 #23'
   type: vmess
   server: 40.160.16.216
   port: 443
@@ -2299,9 +1666,22 @@ proxies:
   ws-headers:
     Host: fapeng.org
   servername: fapeng.org
-- name: 'My Config::🇩🇪 #38'
+- name: 'My Config::❓ #82'
   type: vmess
-  server: 57.129.64.163
+  server: 57.128.189.206
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::❓ #83'
+  type: vmess
+  server: 57.128.189.211
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2312,7 +1692,43 @@ proxies:
   ws-headers:
     Host: yichueng.org
   servername: yichueng.org
-- name: 'My Config::❓ #83'
+- name: 'My Config::❓ #84'
+  type: vmess
+  server: 57.128.189.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇩🇪 #16'
+  type: vmess
+  server: 57.129.24.131
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: My Config::🇵🇰
+  type: vmess
+  server: 38.60.217.146
+  port: 443
+  uuid: 26ae36a4-e21f-48ae-e90b-5adf271b046e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::❓ #85'
   type: vmess
   server: 57.128.189.230
   port: 443
@@ -2325,7 +1741,20 @@ proxies:
   ws-headers:
     Host: pelang.org
   servername: pelang.org
-- name: 'My Config::🇩🇪 #39'
+- name: 'My Config::🇩🇪 #17'
+  type: vmess
+  server: 57.129.2.121
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::🇩🇪 #18'
   type: vmess
   server: 57.129.24.132
   port: 443
@@ -2338,48 +1767,9 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
-- name: 'My Config::🇨🇦 #16'
+- name: 'My Config::🇩🇪 #19'
   type: vmess
-  server: 148.113.153.113
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: serkat.org
-  servername: serkat.org
-- name: 'My Config::🇫🇷 #9'
-  type: vmess
-  server: 141.94.155.229
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇨🇦 #17'
-  type: vmess
-  server: 15.235.85.147
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #40'
-  type: vmess
-  server: 57.129.28.67
+  server: 57.129.25.23
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2390,9 +1780,22 @@ proxies:
   ws-headers:
     Host: yichueng.org
   servername: yichueng.org
-- name: 'My Config::🇩🇪 #41'
+- name: 'My Config::🇩🇪 #20'
   type: vmess
-  server: 57.129.59.201
+  server: 57.129.25.24
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::🇵🇱 #5'
+  type: vmess
+  server: 57.128.216.125
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2403,9 +1806,9 @@ proxies:
   ws-headers:
     Host: kampong.org
   servername: kampong.org
-- name: 'My Config::🇵🇱 #8'
+- name: 'My Config::🇩🇪 #21'
   type: vmess
-  server: 146.59.85.226
+  server: 57.129.24.130
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2414,11 +1817,11 @@ proxies:
   network: ws
   ws-path: linkvws
   ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇫🇷 #10'
+    Host: serkat.org
+  servername: serkat.org
+- name: 'My Config::🇩🇪 #22'
   type: vmess
-  server: 91.134.8.93
+  server: 57.129.28.214
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2427,9 +1830,22 @@ proxies:
   network: ws
   ws-path: linkvws
   ws-headers:
-    Host: pelang.org
-  servername: pelang.org
-- name: 'My Config::🇩🇪 #42'
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇩🇪 #23'
+  type: vmess
+  server: 57.129.28.216
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇩🇪 #24'
   type: vmess
   server: 57.129.28.215
   port: 443
@@ -2442,9 +1858,22 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
-- name: 'My Config::🇺🇸 #32'
+- name: 'My Config::🇩🇪 #25'
   type: vmess
-  server: 15.204.64.212
+  server: 57.129.28.67
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇩🇪 #26'
+  type: vmess
+  server: 57.129.28.68
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2455,9 +1884,9 @@ proxies:
   ws-headers:
     Host: pelang.org
   servername: pelang.org
-- name: 'My Config::🇨🇦 #18'
+- name: 'My Config::🇩🇪 #27'
   type: vmess
-  server: 158.51.121.63
+  server: 57.129.28.213
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2466,9 +1895,138 @@ proxies:
   network: ws
   ws-path: linkvws
   ws-headers:
-    Host: seribus.org
-  servername: seribus.org
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇩🇪 #28'
+  type: vmess
+  server: 57.129.59.194
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇩🇪 #29'
+  type: vmess
+  server: 57.129.28.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇩🇪 #30'
+  type: vmess
+  server: 57.129.28.69
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇩🇪 #31'
+  type: vmess
+  server: 57.129.64.163
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
 - name: 'My Config::🇫🇷 #11'
+  type: vmess
+  server: 91.134.8.93
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::🇩🇪 #32'
+  type: vmess
+  server: 57.129.64.199
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::❓ #86'
+  type: vmess
+  server: 57.129.59.195
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇩🇪 #33'
+  type: vmess
+  server: 57.129.59.199
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇫🇷 #12'
+  type: vmess
+  server: 141.94.155.229
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::❓ #87'
+  type: vmess
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  port: 443
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /azumase.ren
+  ws-headers:
+    Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+- name: 'My Config::🇫🇷 #13'
   type: vmess
   server: 91.134.8.102
   port: 443
@@ -2481,12 +2039,99 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
-- name: 'My Config::🇨🇦 #19'
+- name: 'My Config::🇫🇷 #14'
   type: vmess
-  server: 15.235.85.156
+  server: 91.134.8.101
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇵🇱 #6'
+  type: vmess
+  server: 146.59.85.226
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::🇩🇪 #34'
+  type: vmess
+  server: 141.95.126.134
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: jamekk.org
+  servername: jamekk.org
+- name: 'My Config::🇵🇱 #7'
+  type: vmess
+  server: 146.59.118.249
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇵🇱 #8'
+  type: vmess
+  server: 146.59.118.250
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::🇺🇸 #24'
+  type: vmess
+  server: 193.124.24.247
+  port: 6513
+  uuid: 5cf7fcbc-e2c1-42c4-d0d7-79c45a7d588d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 'My Config::🇵🇱 #9'
+  type: vmess
+  server: 146.59.70.146
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: yichueng.org
+  servername: yichueng.org
+- name: 'My Config::🇺🇸 #25'
+  type: vmess
+  server: 15.204.64.211
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
   cipher: auto
   tls: true
   network: ws
@@ -2494,9 +2139,109 @@ proxies:
   ws-headers:
     Host: kampong.org
   servername: kampong.org
-- name: 'My Config::🇨🇦 #20'
+- name: 'My Config::🇨🇦 #9'
   type: vmess
-  server: 148.113.153.112
+  server: 148.113.176.192
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇨🇦 #10'
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: seribus.org
+  servername: seribus.org
+- name: 'My Config::🇫🇷 #15'
+  type: vmess
+  server: 91.134.8.88
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::🇩🇪 #35'
+  type: vmess
+  server: 57.129.25.20
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::🇨🇦 #11'
+  type: vmess
+  server: 15.235.83.228
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::❓ #88'
+  type: vmess
+  server: v2ray.codefyinc.com
+  port: 443
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /vmessws
+  ws-headers:
+    Host: v2ray.codefyinc.com
+  servername: v2ray.codefyinc.com
+- name: 'My Config::🇨🇦 #12'
+  type: vmess
+  server: seribus.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: seribus.org
+  servername: seribus.org
+- name: 'My Config::❓ #89'
+  type: vmess
+  server: 85.195.101.122
+  port: 40878
+  uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 'My Config::🇩🇪 #36'
+  type: vmess
+  server: 57.129.28.64
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -2507,6 +2252,192 @@ proxies:
   ws-headers:
     Host: serkat.org
   servername: serkat.org
+- name: 'My Config::❓ #90'
+  type: vmess
+  server: 91.99.185.216
+  port: 20086
+  uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::❓ #91'
+  type: vmess
+  server: 57.128.189.143
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::🇺🇸 #26'
+  type: vmess
+  server: 15.204.64.212
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::🇸🇬 #3'
+  type: vmess
+  server: 62.146.235.193
+  port: 28011
+  uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: My Config::🇹🇼
+  type: vmess
+  server: 103.61.139.137
+  port: 20521
+  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::❓ #92'
+  type: vmess
+  server: 57.129.64.157
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::🇨🇦 #13'
+  type: vmess
+  server: 51.79.69.203
+  port: 550
+  uuid: 5f4dc799-fa0d-47a0-946b-8ad0ef562095
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: My Config::🇦🇺
+  type: vmess
+  server: 51.161.130.101
+  port: 550
+  uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 'My Config::❓ #93'
+  type: vmess
+  server: 185.250.38.63
+  port: 550
+  uuid: 0c6abb66-660e-4db9-9e64-3a2625639278
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 'My Config::❓ #94'
+  type: vmess
+  server: 57.128.189.222
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: lammaland.org
+  servername: lammaland.org
+- name: 'My Config::🇭🇰 #15'
+  type: vmess
+  server: 47.238.252.154
+  port: 58867
+  uuid: 7b80e36f-b082-46fc-ae59-6bb0dd17eee8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::🇫🇷 #16'
+  type: vmess
+  server: kampong.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: kampong.org
+  servername: kampong.org
+- name: 'My Config::🇩🇪 #37'
+  type: vmess
+  server: fapeng.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇨🇦 #14'
+  type: vmess
+  server: pelang.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: linkvws
+  ws-headers:
+    Host: pelang.org
+  servername: pelang.org
+- name: 'My Config::🇭🇰 #16'
+  type: vmess
+  server: 47.238.252.154
+  port: 20521
+  uuid: 87bb9d49-6345-42d4-9ee4-91dd8a6ca544
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::🇹🇼 #2'
+  type: vmess
+  server: 103.61.139.137
+  port: 20521
+  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::❓ #95'
+  type: vmess
+  server: 89.31.120.192
+  port: 443
+  uuid: 44537595-9ccc-4b83-8936-5f9ad3229019
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
 proxy-groups:
 - name: PROXY
   type: select
@@ -2519,281 +2450,272 @@ proxy-groups:
   tolerance: 50
   proxies:
   - My Config::🇨🇦
+  - My Config::❓
   - My Config::🇺🇸
-  - 'My Config::🇺🇸 #2'
   - My Config::🇩🇪
   - My Config::🇸🇬
+  - 'My Config::🇺🇸 #2'
   - 'My Config::🇺🇸 #3'
   - 'My Config::🇺🇸 #4'
-  - 'My Config::🇩🇪 #2'
   - 'My Config::🇺🇸 #5'
   - 'My Config::🇺🇸 #6'
   - 'My Config::🇨🇦 #2'
-  - 'My Config::🇺🇸 #7'
-  - 'My Config::🇨🇦 #3'
-  - My Config::🇳🇱
-  - 'My Config::🇳🇱 #2'
-  - 'My Config::🇳🇱 #3'
-  - 'My Config::🇺🇸 #8'
-  - 'My Config::🇳🇱 #4'
-  - 'My Config::🇳🇱 #5'
-  - My Config::❓
-  - 'My Config::🇳🇱 #6'
   - 'My Config::❓ #2'
   - 'My Config::❓ #3'
-  - 'My Config::🇳🇱 #7'
   - 'My Config::❓ #4'
   - 'My Config::❓ #5'
   - 'My Config::❓ #6'
   - 'My Config::❓ #7'
-  - 'My Config::🇳🇱 #8'
+  - My Config::🇳🇱
   - 'My Config::❓ #8'
   - 'My Config::❓ #9'
+  - 'My Config::🇳🇱 #2'
   - 'My Config::❓ #10'
   - 'My Config::❓ #11'
+  - 'My Config::🇳🇱 #3'
   - 'My Config::❓ #12'
   - 'My Config::❓ #13'
   - 'My Config::❓ #14'
   - 'My Config::❓ #15'
-  - 'My Config::🇳🇱 #9'
   - 'My Config::❓ #16'
-  - 'My Config::🇺🇸 #9'
   - 'My Config::❓ #17'
   - 'My Config::❓ #18'
-  - My Config::🇵🇱
-  - My Config::🇫🇷
-  - 'My Config::🇩🇪 #3'
+  - 'My Config::🇳🇱 #4'
   - 'My Config::❓ #19'
-  - My Config::🇨🇿
-  - 'My Config::🇫🇷 #2'
   - 'My Config::❓ #20'
-  - 'My Config::🇩🇪 #4'
-  - My Config::🇬🇧
-  - My Config::🇫🇮
-  - 'My Config::🇩🇪 #5'
-  - 'My Config::🇩🇪 #6'
-  - 'My Config::🇺🇸 #10'
-  - 'My Config::🇨🇦 #4'
-  - 'My Config::🇬🇧 #2'
-  - 'My Config::🇺🇸 #11'
-  - 'My Config::🇩🇪 #7'
-  - 'My Config::🇩🇪 #8'
   - 'My Config::❓ #21'
+  - 'My Config::❓ #22'
+  - 'My Config::❓ #23'
+  - My Config::🇵🇱
+  - 'My Config::🇩🇪 #2'
+  - My Config::🇫🇷
+  - 'My Config::❓ #24'
+  - 'My Config::❓ #25'
+  - My Config::🇨🇿
+  - 'My Config::❓ #26'
+  - 'My Config::🇫🇷 #2'
+  - 'My Config::🇨🇦 #3'
+  - 'My Config::🇫🇷 #3'
+  - 'My Config::🇺🇸 #7'
+  - 'My Config::❓ #27'
+  - 'My Config::🇩🇪 #3'
+  - 'My Config::❓ #28'
+  - 'My Config::🇩🇪 #4'
+  - 'My Config::🇩🇪 #5'
+  - 'My Config::🇫🇷 #4'
+  - 'My Config::🇫🇷 #5'
+  - 'My Config::❓ #29'
+  - 'My Config::🇫🇷 #6'
+  - 'My Config::🇩🇪 #6'
+  - 'My Config::🇩🇪 #7'
+  - 'My Config::🇺🇸 #8'
+  - My Config::🇵🇾
+  - My Config::🇬🇧
+  - 'My Config::🇺🇸 #9'
+  - 'My Config::🇺🇸 #10'
+  - 'My Config::🇺🇸 #11'
+  - 'My Config::🇩🇪 #8'
   - 'My Config::🇵🇱 #2'
+  - 'My Config::❓ #30'
   - 'My Config::🇵🇱 #3'
   - 'My Config::🇩🇪 #9'
   - 'My Config::🇩🇪 #10'
-  - 'My Config::🇩🇪 #11'
-  - My Config::🇲🇾
+  - 'My Config::🇫🇷 #7'
+  - My Config::🇯🇵
   - My Config::🇷🇺
-  - 'My Config::❓ #22'
+  - My Config::🇲🇾
   - 'My Config::🇲🇾 #2'
-  - 'My Config::🇩🇪 #12'
-  - 'My Config::🇵🇱 #4'
-  - 'My Config::🇲🇾 #3'
-  - My Config::🇪🇸
-  - 'My Config::❓ #23'
-  - 'My Config::❓ #24'
-  - 'My Config::❓ #25'
-  - 'My Config::❓ #26'
-  - 'My Config::🇩🇪 #13'
-  - 'My Config::❓ #27'
-  - 'My Config::❓ #28'
+  - 'My Config::🇩🇪 #11'
   - My Config::🇭🇰
-  - 'My Config::🇨🇦 #5'
-  - 'My Config::❓ #29'
-  - 'My Config::🇭🇰 #2'
-  - 'My Config::❓ #30'
-  - 'My Config::🇳🇱 #10'
+  - 'My Config::🇵🇱 #4'
+  - My Config::🇪🇸
   - 'My Config::❓ #31'
+  - 'My Config::🇩🇪 #12'
   - 'My Config::❓ #32'
   - 'My Config::❓ #33'
+  - 'My Config::❓ #34'
+  - 'My Config::🇨🇦 #4'
+  - 'My Config::❓ #35'
+  - 'My Config::🇳🇱 #5'
+  - 'My Config::❓ #36'
+  - 'My Config::🇭🇰 #2'
   - 'My Config::🇭🇰 #3'
   - 'My Config::🇭🇰 #4'
-  - 'My Config::❓ #34'
+  - 'My Config::❓ #37'
   - 'My Config::🇭🇰 #5'
-  - 'My Config::🇳🇱 #11'
   - 'My Config::🇭🇰 #6'
   - 'My Config::🇭🇰 #7'
-  - 'My Config::❓ #35'
-  - 'My Config::❓ #36'
   - 'My Config::🇭🇰 #8'
+  - 'My Config::🇳🇱 #6'
+  - 'My Config::❓ #38'
   - 'My Config::🇭🇰 #9'
   - 'My Config::🇭🇰 #10'
-  - 'My Config::🇺🇸 #12'
-  - My Config::🇮🇳
-  - 'My Config::🇨🇦 #6'
   - 'My Config::🇭🇰 #11'
-  - 'My Config::🇨🇦 #7'
-  - 'My Config::🇺🇸 #13'
+  - 'My Config::❓ #39'
+  - 'My Config::🇭🇰 #12'
+  - My Config::🇮🇳
+  - 'My Config::🇨🇦 #5'
+  - 'My Config::🇺🇸 #12'
+  - 'My Config::🇨🇦 #6'
   - My Config::🇦🇷
   - My Config::🇹🇷
-  - 'My Config::❓ #37'
   - My Config::🇵🇹
-  - 'My Config::🇫🇮 #2'
-  - 'My Config::❓ #38'
-  - 'My Config::❓ #39'
   - 'My Config::❓ #40'
-  - 'My Config::🇮🇳 #2'
-  - 'My Config::🇮🇳 #3'
   - 'My Config::❓ #41'
-  - My Config::🇱🇹
   - 'My Config::❓ #42'
   - 'My Config::❓ #43'
   - 'My Config::❓ #44'
+  - 'My Config::🇬🇧 #2'
+  - 'My Config::🇬🇧 #3'
+  - 'My Config::🇨🇦 #7'
+  - 'My Config::🇬🇧 #4'
+  - 'My Config::🇯🇵 #2'
   - 'My Config::❓ #45'
-  - My Config::🇹🇭
+  - 'My Config::🇬🇧 #5'
+  - My Config::🇫🇮
   - 'My Config::❓ #46'
+  - 'My Config::🇬🇧 #6'
+  - 'My Config::🇬🇧 #7'
   - 'My Config::❓ #47'
   - 'My Config::❓ #48'
   - 'My Config::❓ #49'
-  - 'My Config::🇬🇧 #3'
   - 'My Config::❓ #50'
-  - 'My Config::🇳🇱 #12'
-  - 'My Config::🇷🇺 #2'
-  - My Config::🇱🇻
   - 'My Config::❓ #51'
-  - 'My Config::🇲🇾 #4'
-  - 'My Config::🇳🇱 #13'
+  - 'My Config::🇮🇳 #2'
+  - 'My Config::🇲🇾 #3'
   - 'My Config::❓ #52'
+  - My Config::🇹🇭
   - 'My Config::❓ #53'
-  - 'My Config::🇱🇻 #2'
-  - 'My Config::🇺🇸 #14'
   - 'My Config::❓ #54'
-  - 'My Config::🇬🇧 #4'
   - 'My Config::❓ #55'
-  - 'My Config::🇬🇧 #5'
   - 'My Config::❓ #56'
-  - 'My Config::🇺🇸 #15'
-  - My Config::🇨🇾
+  - 'My Config::🇦🇷 #2'
+  - 'My Config::🇫🇮 #2'
   - 'My Config::❓ #57'
-  - My Config::🇲🇽
-  - My Config::🇮🇱
   - 'My Config::❓ #58'
-  - 'My Config::🇫🇮 #3'
-  - 'My Config::🇬🇧 #6'
   - 'My Config::❓ #59'
   - 'My Config::❓ #60'
-  - 'My Config::🇬🇧 #7'
-  - 'My Config::🇬🇧 #8'
-  - 'My Config::🇫🇮 #4'
   - 'My Config::❓ #61'
+  - 'My Config::🇳🇱 #7'
   - 'My Config::❓ #62'
-  - 'My Config::🇦🇷 #2'
   - 'My Config::❓ #63'
   - 'My Config::❓ #64'
   - 'My Config::❓ #65'
+  - 'My Config::🇳🇱 #8'
+  - 'My Config::🇬🇧 #8'
+  - My Config::🇱🇻
+  - 'My Config::🇱🇻 #2'
+  - 'My Config::🇷🇺 #2'
   - 'My Config::❓ #66'
-  - 'My Config::🇺🇸 #16'
   - 'My Config::❓ #67'
   - 'My Config::❓ #68'
+  - 'My Config::🇺🇸 #13'
+  - 'My Config::🇳🇱 #9'
   - 'My Config::❓ #69'
-  - My Config::🇯🇵
-  - 'My Config::🇬🇧 #9'
-  - 'My Config::🇫🇷 #3'
-  - 'My Config::🇺🇸 #17'
   - 'My Config::❓ #70'
   - 'My Config::❓ #71'
-  - 'My Config::🇬🇧 #10'
   - 'My Config::❓ #72'
+  - 'My Config::🇺🇸 #14'
   - 'My Config::❓ #73'
-  - 'My Config::🇯🇵 #2'
-  - 'My Config::🇺🇸 #18'
-  - 'My Config::🇬🇧 #11'
-  - 'My Config::🇺🇸 #19'
-  - 'My Config::🇸🇬 #2'
-  - 'My Config::🇺🇸 #20'
-  - 'My Config::🇩🇪 #14'
-  - 'My Config::🇷🇺 #3'
-  - 'My Config::🇫🇷 #4'
-  - 'My Config::🇩🇪 #15'
-  - 'My Config::🇩🇪 #16'
+  - My Config::🇮🇱
   - 'My Config::❓ #74'
-  - 'My Config::🇩🇪 #17'
-  - 'My Config::🇺🇸 #21'
-  - 'My Config::🇫🇷 #5'
-  - 'My Config::🇺🇸 #22'
-  - 'My Config::🇨🇦 #8'
-  - 'My Config::🇩🇪 #18'
-  - 'My Config::🇨🇦 #9'
-  - 'My Config::🇫🇷 #6'
-  - 'My Config::🇩🇪 #19'
-  - 'My Config::🇺🇸 #23'
-  - 'My Config::🇩🇪 #20'
   - 'My Config::❓ #75'
-  - 'My Config::🇩🇪 #21'
-  - 'My Config::🇫🇷 #7'
-  - My Config::🇹🇼
-  - My Config::🇨🇳
+  - My Config::🇲🇽
+  - 'My Config::🇬🇧 #9'
   - 'My Config::❓ #76'
-  - 'My Config::❓ #77'
-  - 'My Config::🇩🇪 #22'
-  - 'My Config::❓ #78'
-  - 'My Config::🇺🇸 #24'
-  - My Config::🇦🇺
-  - 'My Config::🇺🇸 #25'
-  - 'My Config::❓ #79'
-  - 'My Config::🇩🇪 #23'
   - 'My Config::🇫🇷 #8'
-  - 'My Config::🇩🇪 #24'
-  - 'My Config::🇮🇳 #4'
-  - 'My Config::❓ #80'
-  - 'My Config::🇩🇪 #25'
-  - 'My Config::🇨🇦 #10'
-  - 'My Config::🇸🇬 #3'
-  - 'My Config::🇩🇪 #26'
-  - 'My Config::🇨🇦 #11'
-  - 'My Config::🇨🇦 #12'
-  - 'My Config::🇸🇬 #4'
-  - 'My Config::🇩🇪 #27'
-  - 'My Config::🇭🇰 #12'
-  - 'My Config::🇵🇱 #5'
-  - 'My Config::🇩🇪 #28'
-  - 'My Config::🇨🇦 #13'
-  - 'My Config::🇵🇱 #6'
-  - 'My Config::🇩🇪 #29'
-  - 'My Config::🇺🇸 #26'
-  - 'My Config::🇭🇰 #13'
-  - 'My Config::🇺🇸 #27'
-  - 'My Config::🇺🇸 #28'
-  - 'My Config::🇩🇪 #30'
-  - 'My Config::🇭🇰 #14'
-  - 'My Config::🇲🇾 #5'
-  - 'My Config::🇨🇦 #14'
-  - My Config::🇵🇰
-  - 'My Config::🇭🇰 #15'
-  - 'My Config::🇵🇱 #7'
-  - 'My Config::🇩🇪 #31'
-  - 'My Config::🇨🇦 #15'
-  - 'My Config::🇺🇸 #29'
-  - 'My Config::❓ #81'
-  - 'My Config::🇩🇪 #32'
-  - 'My Config::🇩🇪 #33'
-  - 'My Config::🇩🇪 #34'
-  - 'My Config::🇩🇪 #35'
-  - 'My Config::🇺🇸 #30'
-  - 'My Config::🇹🇼 #2'
-  - 'My Config::🇩🇪 #36'
-  - 'My Config::🇩🇪 #37'
-  - 'My Config::❓ #82'
-  - My Config::🇦🇪
-  - 'My Config::🇺🇸 #31'
-  - 'My Config::🇩🇪 #38'
-  - 'My Config::❓ #83'
-  - 'My Config::🇩🇪 #39'
-  - 'My Config::🇨🇦 #16'
+  - 'My Config::🇺🇸 #15'
+  - 'My Config::🇬🇧 #10'
+  - 'My Config::❓ #77'
+  - 'My Config::❓ #78'
+  - 'My Config::🇯🇵 #3'
+  - My Config::🇸🇪
+  - 'My Config::❓ #79'
+  - 'My Config::🇩🇪 #13'
   - 'My Config::🇫🇷 #9'
-  - 'My Config::🇨🇦 #17'
-  - 'My Config::🇩🇪 #40'
-  - 'My Config::🇩🇪 #41'
-  - 'My Config::🇵🇱 #8'
+  - 'My Config::🇺🇸 #16'
+  - 'My Config::❓ #80'
+  - 'My Config::🇺🇸 #17'
+  - 'My Config::🇩🇪 #14'
+  - 'My Config::🇺🇸 #18'
+  - 'My Config::🇭🇰 #13'
+  - 'My Config::🇯🇵 #4'
+  - 'My Config::🇺🇸 #19'
+  - 'My Config::🇭🇰 #14'
+  - 'My Config::🇺🇸 #20'
+  - 'My Config::🇺🇸 #21'
+  - 'My Config::🇩🇪 #15'
+  - 'My Config::🇸🇬 #2'
+  - 'My Config::❓ #81'
+  - 'My Config::🇲🇾 #4'
+  - 'My Config::🇮🇳 #3'
+  - 'My Config::🇨🇦 #8'
   - 'My Config::🇫🇷 #10'
-  - 'My Config::🇩🇪 #42'
-  - 'My Config::🇺🇸 #32'
-  - 'My Config::🇨🇦 #18'
+  - 'My Config::🇺🇸 #22'
+  - 'My Config::🇺🇸 #23'
+  - 'My Config::❓ #82'
+  - 'My Config::❓ #83'
+  - 'My Config::❓ #84'
+  - 'My Config::🇩🇪 #16'
+  - My Config::🇵🇰
+  - 'My Config::❓ #85'
+  - 'My Config::🇩🇪 #17'
+  - 'My Config::🇩🇪 #18'
+  - 'My Config::🇩🇪 #19'
+  - 'My Config::🇩🇪 #20'
+  - 'My Config::🇵🇱 #5'
+  - 'My Config::🇩🇪 #21'
+  - 'My Config::🇩🇪 #22'
+  - 'My Config::🇩🇪 #23'
+  - 'My Config::🇩🇪 #24'
+  - 'My Config::🇩🇪 #25'
+  - 'My Config::🇩🇪 #26'
+  - 'My Config::🇩🇪 #27'
+  - 'My Config::🇩🇪 #28'
+  - 'My Config::🇩🇪 #29'
+  - 'My Config::🇩🇪 #30'
+  - 'My Config::🇩🇪 #31'
   - 'My Config::🇫🇷 #11'
-  - 'My Config::🇨🇦 #19'
-  - 'My Config::🇨🇦 #20'
+  - 'My Config::🇩🇪 #32'
+  - 'My Config::❓ #86'
+  - 'My Config::🇩🇪 #33'
+  - 'My Config::🇫🇷 #12'
+  - 'My Config::❓ #87'
+  - 'My Config::🇫🇷 #13'
+  - 'My Config::🇫🇷 #14'
+  - 'My Config::🇵🇱 #6'
+  - 'My Config::🇩🇪 #34'
+  - 'My Config::🇵🇱 #7'
+  - 'My Config::🇵🇱 #8'
+  - 'My Config::🇺🇸 #24'
+  - 'My Config::🇵🇱 #9'
+  - 'My Config::🇺🇸 #25'
+  - 'My Config::🇨🇦 #9'
+  - 'My Config::🇨🇦 #10'
+  - 'My Config::🇫🇷 #15'
+  - 'My Config::🇩🇪 #35'
+  - 'My Config::🇨🇦 #11'
+  - 'My Config::❓ #88'
+  - 'My Config::🇨🇦 #12'
+  - 'My Config::❓ #89'
+  - 'My Config::🇩🇪 #36'
+  - 'My Config::❓ #90'
+  - 'My Config::❓ #91'
+  - 'My Config::🇺🇸 #26'
+  - 'My Config::🇸🇬 #3'
+  - My Config::🇹🇼
+  - 'My Config::❓ #92'
+  - 'My Config::🇨🇦 #13'
+  - My Config::🇦🇺
+  - 'My Config::❓ #93'
+  - 'My Config::❓ #94'
+  - 'My Config::🇭🇰 #15'
+  - 'My Config::🇫🇷 #16'
+  - 'My Config::🇩🇪 #37'
+  - 'My Config::🇨🇦 #14'
+  - 'My Config::🇭🇰 #16'
+  - 'My Config::🇹🇼 #2'
+  - 'My Config::❓ #95'
 rules:
 - GEOIP,private,DIRECT,no-resolve
 - GEOSITE,category-ads-all,REJECT
