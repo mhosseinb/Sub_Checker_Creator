@@ -8,7 +8,7 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
     """پردازش لیست کانفیگ‌ها و بازگرداندن لیست پروکسی‌های یکتا"""
     proxies = []
     seen_names = {}
-    
+
     for idx, config in enumerate(configs, start=1):
         proxy = None
         original_name = None
@@ -16,7 +16,7 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
             if config.startswith("vmess://"):
                 encoded_part = config.split("://", 1)[1]
                 missing_padding = len(encoded_part) % 4
-                if missing_padding: 
+                if missing_padding:
                     encoded_part += '=' * (4 - missing_padding)
                 decoded_json = base64.b64decode(encoded_part).decode('utf-8')
                 vmess_config = json.loads(decoded_json)
@@ -34,7 +34,7 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
                 if vmess_config.get('path'): proxy["ws-path"] = vmess_config.get('path')
                 if vmess_config.get('host'): proxy["ws-headers"] = {"Host": vmess_config.get('host')}
                 if vmess_config.get('sni'): proxy["servername"] = vmess_config.get('sni')
-                    
+
             elif config.startswith("vless://"):
                 parts = config.split("://", 1)[1]
                 if "@" not in parts: raise ValueError("Invalid VLESS")
@@ -64,7 +64,7 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
                 if "path" in params: proxy["ws-path"] = params["path"]
                 if "host" in params: proxy["ws-headers"] = {"Host": params["host"]}
                 if "sni" in params: proxy["servername"] = params["sni"]
-                    
+
             elif config.startswith("trojan://"):
                 parts = config.split("://", 1)[1]
                 if "@" not in parts: raise ValueError("Invalid Trojan")
@@ -88,7 +88,7 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
                     "password": password, "tls": True
                 }
                 if "sni" in params: proxy["sni"] = params["sni"]
-                    
+
             elif config.startswith("ss://"):
                 parts = config.split("://", 1)[1]
                 if "@" in parts:
@@ -126,7 +126,7 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
                     "name": "", "type": "ss", "server": host, "port": int(port),
                     "cipher": method, "password": password
                 }
-            
+
             if proxy and "server" in proxy and "port" in proxy:
                 base_name = (original_name.strip() if original_name and original_name.strip() else "Proxy")
                 seen_names[base_name] = seen_names.get(base_name, 0) + 1
@@ -134,17 +134,21 @@ def _process_proxies(configs: List[str]) -> List[Dict[str, Any]]:
                 unique_name = base_name if count == 1 else f"{base_name} #{count}"
                 proxy["name"] = unique_name
                 proxies.append(proxy)
-                
+
         except Exception as e:
             print(f"⚠️ خطا در پردازش کانفیگ #{idx}: {e}")
-    
+
     return proxies
 
-def generate_clash_configs(configs: List[str], output_general: str = "clash.yaml", output_meta: str = "clash_meta.yaml"):
+def generate_clash_configs(
+    configs: List[str],
+    output_general: str = "clash.yaml",
+    output_meta: str = "clash_meta.yaml"
+):
     """
     تولید همزمان دو فایل کانفیگ:
-    - output_general: برای Clash معمولی (با Rule-Set)
-    - output_meta: برای Clash.Meta (با GEOIP/GEOSITE)
+    - output_general: برای Clash معمولی (Rule-Set)
+    - output_meta: برای Clash.Meta (GEOIP/GEOSITE)
     """
     print("\n" + "="*60)
     print("🔄 در حال تولید همزمان دو کانفیگ Clash...")
@@ -205,8 +209,6 @@ def generate_clash_configs(configs: List[str], output_general: str = "clash.yaml
         "proxy-groups": [
             {"name": "PROXY", "type": "select", "proxies": ["AUTO"]},
             {"name": "AUTO", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "tolerance": 50, "proxies": proxy_names},
-            {"name": "DIRECT", "type": "select", "proxies": ["DIRECT"]},
-            {"name": "REJECT", "type": "select", "proxies": ["REJECT"]}
         ],
         "rules": [
             "GEOIP,private,DIRECT,no-resolve",
@@ -266,7 +268,7 @@ if __name__ == "__main__":
         "vless://12345678-1234-1234-1234-123456789012@example.com:443?security=tls&type=ws&path=/path#Test VLESS",
         "vless://12345678-1234-1234-1234-123456789012@example2.com:443?security=tls&type=ws&path=/path#Test VLESS"
     ]
-    
+
     generate_clash_configs(
         configs=sample_configs,
         output_general="clash.yaml",
