@@ -168,9 +168,7 @@ def generate_clash_configs(
         "proxies": proxies,
         "proxy-groups": [
             {"name": "PROXY", "type": "select", "proxies": ["AUTO"]},
-            {"name": "AUTO", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "tolerance": 50, "proxies": proxy_names},
-            {"name": "DIRECT", "type": "select", "proxies": ["DIRECT"]},
-            {"name": "REJECT", "type": "select", "proxies": ["REJECT"]}
+            {"name": "AUTO", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "tolerance": 50, "proxies": proxy_names}
         ],
         "rule-providers": {
             "ir": {"type": "http", "format": "yaml", "behavior": "domain", "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.yaml", "path": "./ruleset/ir.yaml", "interval": 86400},
@@ -274,3 +272,4 @@ if __name__ == "__main__":
         output_general="clash.yaml",
         output_meta="clash_meta.yaml"
     )
+
