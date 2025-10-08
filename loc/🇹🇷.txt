@@ -1,3 +1,4 @@
 //profile-title: base64:My Sub=
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#My%20Config%3A%3A%F0%9F%87%B9%F0%9F%87%B7
+vless://97ef0833-f047-4ba0-bc7e-40b54bd9c5b9@95.134.130.138:5437?mode=gun&security=none&encryption=none&type=grpc&serviceName=%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn#My%20Config%3A%3A%F0%9F%87%B9%F0%9F%87%B7
