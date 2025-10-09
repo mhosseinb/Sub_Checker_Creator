@@ -1,4 +1,4 @@
 //profile-title: base64:My Sub=
 
-trojan://253bc477d4e43c209f2d427272968280@58.152.53.94:443?security=tls&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%AD%F0%9F%87%B0
+trojan://253bc477d4e43c209f2d427272968280@23.227.194.234:443?security=tls&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://253bc477d4e43c209f2d427272968280@38.180.249.152:443?security=tls&sni=www.nintendogames.net#My%20Config%3A%3A%E2%9D%93
