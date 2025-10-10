@@ -1,3 +1,0 @@
-//profile-title: base64:My Sub=
-
-vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@indeed.com:443?security=tls&sni=nkang2replace.airlineshoma.com&allowInsecure=0&fp=chrome&type=ws&path=/&host=nkang2replace.airlineshoma.com&encryption=none#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AA
