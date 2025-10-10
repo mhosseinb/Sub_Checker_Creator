@@ -17,6 +17,12 @@ proxies:
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
+- name: 'My Config::🇺🇸 #3'
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: My Config::🇩🇪
   type: vmess
   server: b-v1.888988866.xyz
@@ -41,12 +47,6 @@ proxies:
   ws-path: /a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb
   ws-headers:
     Host: y-v1.888988866.xyz
-- name: 'My Config::🇺🇸 #3'
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
 - name: 'My Config::🇺🇸 #4'
   type: ss
   server: 104.192.226.106
@@ -73,83 +73,53 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::🇳🇱 #4'
   type: ss
-  server: 45.87.175.154
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇳🇱 #5'
-  type: ss
   server: 193.29.139.235
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #6'
-  type: ss
-  server: 45.87.175.193
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇳🇱 #7'
-  type: ss
-  server: 193.29.139.189
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇳🇱 #8'
+- name: 'My Config::🇳🇱 #5'
   type: ss
   server: 151.242.251.153
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇳🇱 #9'
-  type: ss
-  server: 45.87.175.177
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇳🇱 #10'
+- name: 'My Config::🇳🇱 #6'
   type: ss
   server: 151.242.251.144
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇳🇱 #11'
+- name: 'My Config::🇳🇱 #7'
+  type: ss
+  server: 45.87.175.177
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::🇳🇱 #8'
   type: ss
   server: 45.87.175.171
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇳🇱 #12'
-  type: ss
-  server: 45.158.171.146
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇳🇱 #13'
+- name: 'My Config::🇳🇱 #9'
   type: ss
   server: 45.87.175.164
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇳🇱 #14'
+- name: 'My Config::🇳🇱 #10'
   type: ss
   server: 151.242.251.147
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇳🇱 #15'
+- name: 'My Config::🇳🇱 #11'
   type: ss
-  server: 45.87.175.192
+  server: 45.158.171.146
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇳🇱 #16'
-  type: ss
-  server: 151.242.251.131
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 'My Config::🇩🇪 #2'
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: My Config::🇨🇦
   type: vmess
   server: jamekk.org
   port: 443
@@ -162,13 +132,19 @@ proxies:
   ws-headers:
     Host: jamekk.org
   servername: jamekk.org
-- name: 'My Config::🇳🇱 #17'
+- name: 'My Config::🇨🇦 #2'
   type: ss
-  server: 193.29.139.227
-  port: 8080
+  server: 79.127.233.170
+  port: 990
   cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: My Config::🇫🇷
+  password: f8f7aCzcPKbsF8p3
+- name: My Config::🇨🇿
+  type: ss
+  server: 195.181.160.6
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: My Config::🇵🇱
   type: vmess
   server: yichueng.org
   port: 443
@@ -181,41 +157,19 @@ proxies:
   ws-headers:
     Host: yichueng.org
   servername: yichueng.org
-- name: My Config::🇨🇿
-  type: ss
-  server: 195.181.160.6
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: My Config::🇨🇦
-  type: ss
-  server: 79.127.233.170
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇩🇪 #3'
+- name: 'My Config::🇩🇪 #2'
   type: vmess
-  server: serkat.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: serkat.org
-- name: 'My Config::🇩🇪 #4'
-  type: vmess
-  server: 91.99.185.216
-  port: 20086
-  uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9
+  server: 51.68.191.233
+  port: 80
+  uuid: f0eda072-9ae8-494c-a495-215fa5729467
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
-- name: 'My Config::🇩🇪 #5'
+  ws-path: /vmess/
+  ws-headers:
+    Host: 51.68.191.233
+- name: 'My Config::🇩🇪 #3'
   type: vmess
   server: a-v1.888988866.xyz
   port: 443
@@ -227,37 +181,41 @@ proxies:
   ws-path: /104556c9-797c-42e9-9bb7-7a6e9974b857
   ws-headers:
     Host: a-v1.888988866.xyz
-- name: 'My Config::🇳🇱 #18'
-  type: ss
-  server: 45.87.175.28
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #19'
+- name: 'My Config::🇳🇱 #12'
   type: ss
   server: 45.87.175.22
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇩🇪 #4'
+  type: vmess
+  server: 91.99.185.216
+  port: 20086
+  uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
 - name: 'My Config::🇺🇸 #5'
   type: ss
   server: 104.167.197.25
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
-- name: 'My Config::🇺🇸 #6'
-  type: vmess
-  server: masjide.org
+- name: 'My Config::🇳🇱 #13'
+  type: ss
+  server: 45.87.175.28
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: My Config::🇬🇧
+  type: ss
+  server: 141.98.101.178
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: masjide.org
-- name: 'My Config::🇺🇸 #7'
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 'My Config::🇺🇸 #6'
   type: vmess
   server: cpp007-2.facai20250909.com
   port: 443
@@ -270,13 +228,13 @@ proxies:
   ws-headers:
     Host: cpp007-2.facai20250909.com
   servername: cpp007-2.facai20250909.com
-- name: 'My Config::🇳🇱 #20'
+- name: 'My Config::🇳🇱 #14'
   type: ss
   server: 45.87.175.65
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇺🇸 #8'
+- name: 'My Config::🇺🇸 #7'
   type: vmess
   server: 47.253.70.234
   port: 45979
@@ -286,44 +244,31 @@ proxies:
   tls: false
   network: ws
   ws-path: /test
-- name: 'My Config::🇳🇱 #21'
+- name: 'My Config::🇳🇱 #15'
   type: ss
   server: 45.87.175.157
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇫🇷 #2'
-  type: vmess
-  server: kampong.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: linkvws
-  ws-headers:
-    Host: kampong.org
-  servername: kampong.org
 - name: My Config::🇵🇾
   type: ss
   server: 38.165.233.18
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇳🇱 #16'
+  type: ss
+  server: 193.29.139.179
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
 - name: My Config::🇷🇺
   type: ss
   server: 45.139.24.24
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
-- name: 'My Config::🇳🇱 #22'
-  type: ss
-  server: 193.29.139.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇳🇱 #23'
+- name: 'My Config::🇳🇱 #17'
   type: ss
   server: 45.87.175.188
   port: 8080
@@ -335,25 +280,29 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: My Config::🇫🇮
-  type: ss
-  server: promo18v.bystrivpn.ru
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: dAHM1pm8ag7KdlrUylQi6t
-- name: 'My Config::🇨🇦 #2'
-  type: ss
-  server: 142.4.216.225
-  port: 80
-  cipher: chacha20-ietf-poly1305
-  password: JIhN6rBKkaEboLNXVSv5rq
 - name: My Config::🇯🇵
   type: ss
   server: 149.22.87.204
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 'My Config::🇳🇱 #24'
+- name: 'My Config::🇨🇦 #3'
+  type: ss
+  server: 142.4.216.225
+  port: 80
+  cipher: chacha20-ietf-poly1305
+  password: JIhN6rBKkaEboLNXVSv5rq
+- name: My Config::❓
+  type: vmess
+  server: 45.89.107.51
+  port: 20521
+  uuid: 3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::🇳🇱 #18'
   type: ss
   server: 45.158.171.70
   port: 8080
@@ -369,49 +318,29 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇩🇪 #6'
+- name: 'My Config::🇩🇪 #5'
   type: ss
   server: 95.163.176.37
   port: 8506
   cipher: chacha20-ietf-poly1305
   password: eUh4lSpi7nOYj0vSrqLUh0
+- name: 'My Config::🇨🇦 #4'
+  type: ss
+  server: ca225.vpnbook.com
+  port: 80
+  cipher: chacha20-ietf-poly1305
+  password: JIhN6rBKkaEboLNXVSv5rq
 - name: My Config::🇹🇷
   type: ss
   server: tr.vpnsparta.pro
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: c40641c1f89e7acb
-- name: 'My Config::🇨🇦 #3'
-  type: ss
-  server: ca225.vpnbook.com
-  port: 80
-  cipher: chacha20-ietf-poly1305
-  password: JIhN6rBKkaEboLNXVSv5rq
-- name: 'My Config::🇸🇬 #2'
+- name: 'My Config::❓ #2'
   type: vmess
   server: 8.219.218.138
   port: 22177
   uuid: 75c4ff14-7d29-43ee-bab1-577ca9a804b5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇸🇬 #3'
-  type: vmess
-  server: 8.219.218.138
-  port: 2678
-  uuid: d4a44c6f-a701-4004-89e9-321afb41035b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇸🇬 #4'
-  type: vmess
-  server: 47.237.13.208
-  port: 51378
-  uuid: 8168bcf5-5db1-4d38-a534-a86f7bf96ac6
   alterId: 0
   cipher: auto
   tls: false
@@ -427,29 +356,33 @@ proxies:
   tls: false
   network: ws
   ws-path: /
-- name: My Config::❓
+- name: 'My Config::🇸🇬 #2'
   type: vmess
-  server: 8.220.188.238
-  port: 33248
-  uuid: 81b57c84-698f-4944-9268-db6a06a4a63a
+  server: 47.237.13.208
+  port: 51378
+  uuid: 8168bcf5-5db1-4d38-a534-a86f7bf96ac6
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇩🇪 #7'
+- name: 'My Config::🇸🇬 #3'
+  type: vmess
+  server: 47.237.13.208
+  port: 16043
+  uuid: 95bc3e32-aa9b-4dc9-9f77-82910e39a2e7
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::🇩🇪 #6'
   type: ss
   server: 185.177.229.245
   port: 1866
   cipher: chacha20-ietf-poly1305
   password: oXGp1+ihlfKg826H
-- name: My Config::🇵🇱
-  type: ss
-  server: 92.118.205.228
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇸🇬 #5'
+- name: 'My Config::🇸🇬 #4'
   type: vmess
   server: 47.237.13.208
   port: 50110
@@ -459,7 +392,13 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇺🇸 #9'
+- name: 'My Config::🇵🇱 #2'
+  type: ss
+  server: 92.118.205.228
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇺🇸 #8'
   type: vmess
   server: v2ray.codefyinc.com
   port: 443
@@ -471,7 +410,7 @@ proxies:
   ws-path: /vmessws
   ws-headers:
     Host: v2ray.codefyinc.com
-- name: 'My Config::🇺🇸 #10'
+- name: 'My Config::🇺🇸 #9'
   type: vmess
   server: 209.126.84.189
   port: 443
@@ -483,6 +422,12 @@ proxies:
   ws-path: /vmessws
   ws-headers:
     Host: 209.126.84.189
+- name: My Config::🇨🇴
+  type: ss
+  server: 181.119.30.20
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
 - name: My Config::🇭🇰
   type: vmess
   server: 47.76.136.178
@@ -495,9 +440,19 @@ proxies:
   ws-path: /
 - name: 'My Config::🇭🇰 #2'
   type: vmess
-  server: 47.76.246.12
-  port: 42669
-  uuid: 13709d57-530e-4f9c-97d7-ebc774bdfc6c
+  server: 47.239.81.113
+  port: 17002
+  uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
+- name: 'My Config::🇭🇰 #3'
+  type: vmess
+  server: 8.217.159.96
+  port: 47872
+  uuid: 23ea0b75-206b-4e3b-b624-e093d5808bf8
   alterId: 0
   cipher: auto
   tls: false
@@ -509,7 +464,7 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇨🇦 #4'
+- name: 'My Config::🇨🇦 #5'
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -519,7 +474,7 @@ proxies:
   tls: false
   network: ws
   ws-path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 'My Config::🇭🇰 #3'
+- name: 'My Config::🇭🇰 #4'
   type: vmess
   server: 47.83.174.131
   port: 19850
@@ -535,21 +490,21 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇭🇰 #4'
+- name: 'My Config::🇭🇰 #5'
   type: vmess
-  server: 47.76.118.235
-  port: 4656
-  uuid: b32e6f10-a209-4614-a2da-5c3c2769c507
+  server: 8.217.220.30
+  port: 31123
+  uuid: 12f7164b-e3e1-4264-86cc-68028902cd19
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #5'
+- name: 'My Config::❓ #3'
   type: vmess
-  server: 47.243.231.14
-  port: 34404
-  uuid: 80d50481-a070-41fa-b7c1-82b49f053c7a
+  server: 8.218.175.64
+  port: 9754
+  uuid: 5b9575c3-c404-4c93-98f8-63581e88ffdf
   alterId: 0
   cipher: auto
   tls: false
@@ -557,9 +512,9 @@ proxies:
   ws-path: /arki?ed=2048
 - name: 'My Config::🇭🇰 #6'
   type: vmess
-  server: 8.210.230.179
-  port: 45324
-  uuid: 88ae3410-5af6-4a76-bb0f-940d6fff4f1a
+  server: 47.76.233.2
+  port: 5634
+  uuid: 93070eaa-b553-44d9-b239-994e46239c9c
   alterId: 0
   cipher: auto
   tls: false
@@ -567,19 +522,9 @@ proxies:
   ws-path: /arki?ed=2048
 - name: 'My Config::🇭🇰 #7'
   type: vmess
-  server: 8.218.175.64
-  port: 51823
-  uuid: b8ee639c-a7ac-49fa-bc49-2510e885043f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #8'
-  type: vmess
-  server: 8.210.230.179
-  port: 12125
-  uuid: 8b0c11be-1ffe-4074-afc5-e734fe985b22
+  server: 47.243.231.14
+  port: 56304
+  uuid: a960961d-3938-4dc4-abfd-3f98a4b5ce0b
   alterId: 0
   cipher: auto
   tls: false
@@ -597,31 +542,55 @@ proxies:
   ws-path: /
   ws-headers:
     Host: c7.620720.xyz
+- name: 'My Config::🇭🇰 #8'
+  type: vmess
+  server: 47.238.252.154
+  port: 58867
+  uuid: 7b80e36f-b082-46fc-ae59-6bb0dd17eee8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /arki?ed=2048
 - name: 'My Config::🇭🇰 #9'
   type: vmess
-  server: 47.243.231.14
-  port: 56304
-  uuid: a960961d-3938-4dc4-abfd-3f98a4b5ce0b
+  server: 8.218.175.64
+  port: 51377
+  uuid: 45bfcaaa-f3db-4e93-8164-4203eaa2a2cc
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
+- name: My Config::🇦🇷
+  type: ss
+  server: 38.54.45.129
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
 - name: 'My Config::🇭🇰 #10'
-  type: vmess
-  server: 8.217.158.92
-  port: 49761
-  uuid: b224875e-98a6-4477-a1ee-533887b6701d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
+  type: ss
+  server: 203.23.128.33
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇷🇺 #2'
+  type: ss
+  server: 185.126.239.250
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇳🇱 #19'
+  type: ss
+  server: 45.87.175.166
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
 - name: 'My Config::🇭🇰 #11'
   type: vmess
-  server: 47.238.0.200
-  port: 37130
-  uuid: 2090a986-fa9e-4778-948b-9eb993e0a0ef
+  server: 8.217.34.12
+  port: 20918
+  uuid: a434fe75-2165-4652-af11-ac58403ebf86
   alterId: 0
   cipher: auto
   tls: false
@@ -629,103 +598,37 @@ proxies:
   ws-path: /arki?ed=2048
 - name: 'My Config::🇭🇰 #12'
   type: vmess
-  server: 8.217.127.167
-  port: 57858
-  uuid: d1226e33-e569-4f9b-a25d-a53da9e7deb6
+  server: 47.83.162.4
+  port: 40873
+  uuid: 3fd266bc-7691-43cf-a82f-0c9761a69bf0
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
 - name: 'My Config::🇭🇰 #13'
-  type: ss
-  server: 203.23.128.33
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: My Config::🇦🇷
-  type: ss
-  server: 38.54.45.129
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇭🇰 #14'
   type: vmess
-  server: 8.210.230.179
-  port: 2318
-  uuid: 55bb7a7c-c09d-47f6-a047-8472eeaadeff
+  server: 47.239.204.193
+  port: 33611
+  uuid: 56608d2c-b7b4-4cde-a63b-33d6e0b6fd62
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇳🇱 #25'
-  type: ss
-  server: 45.87.175.166
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 'My Config::🇭🇰 #15'
-  type: vmess
-  server: 8.217.158.92
-  port: 25506
-  uuid: a3846e50-9935-4b49-bb7c-ce258f3253b2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇷🇺 #2'
-  type: ss
-  server: 185.126.239.250
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: My Config::🇵🇷
-  type: ss
-  server: 185.47.255.22
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇭🇰 #16'
-  type: vmess
-  server: 47.76.118.235
-  port: 7775
-  uuid: 0f1c2d37-adb4-4677-9727-dbb1b8e2b794
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇳🇱 #26'
+- name: 'My Config::🇳🇱 #20'
   type: ss
   server: 45.158.171.66
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: My Config::🇮🇳
-  type: ss
-  server: 134.209.147.198
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇭🇰 #17'
-  type: vmess
-  server: 47.238.0.200
-  port: 29230
-  uuid: 44977492-f248-46a0-b18f-ac268c2ecf43
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇳🇱 #27'
+- name: 'My Config::🇳🇱 #21'
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
-- name: 'My Config::🇳🇱 #28'
+- name: 'My Config::🇳🇱 #22'
   type: ss
   server: 193.29.139.202
   port: 8080
@@ -737,54 +640,46 @@ proxies:
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇳🇱 #29'
-  type: ss
-  server: beesyar.org
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 'My Config::🇳🇱 #30'
-  type: ss
-  server: 45.87.175.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 'My Config::🇮🇳 #2'
+- name: My Config::🇮🇳
   type: ss
   server: 103.111.114.29
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
-- name: 'My Config::🇳🇱 #31'
-  type: ss
-  server: 45.87.175.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #32'
+- name: 'My Config::🇺🇸 #10'
+  type: vmess
+  server: 154.9.254.63
+  port: 20521
+  uuid: d824764a-954e-4c75-9116-f6e5eba944a9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+- name: 'My Config::🇳🇱 #23'
   type: ss
   server: 193.29.139.251
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #33'
+- name: My Config::🇨🇾
   type: ss
-  server: 45.87.175.92
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇳🇱 #34'
-  type: ss
-  server: 45.87.175.58
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 'My Config::🇹🇷 #2'
-  type: ss
-  server: 185.123.101.241
+  server: 134.255.210.49
   port: 990
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇳🇱 #24'
+  type: ss
+  server: 45.87.175.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 'My Config::🇳🇱 #25'
+  type: ss
+  server: 45.87.175.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 'My Config::🇯🇵 #2'
   type: vmess
   server: 43.246.198.134
@@ -795,12 +690,30 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇳🇱 #35'
+- name: 'My Config::🇳🇱 #26'
+  type: ss
+  server: 45.87.175.58
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇳🇱 #27'
+  type: ss
+  server: 45.87.175.92
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇳🇱 #28'
   type: ss
   server: 193.29.139.240
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 'My Config::🇹🇷 #2'
+  type: ss
+  server: 185.123.101.241
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
 - name: 'My Config::🇯🇵 #3'
   type: vmess
   server: 43.246.198.134
@@ -811,17 +724,7 @@ proxies:
   tls: false
   network: ws
   ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #18'
-  type: vmess
-  server: 47.76.89.175
-  port: 43359
-  uuid: 34d54f29-ad0a-47e6-9f5e-0b82074163dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇳🇱 #36'
+- name: 'My Config::🇳🇱 #29'
   type: ss
   server: 45.87.175.69
   port: 8080
@@ -833,19 +736,21 @@ proxies:
   port: 8009
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
-- name: 'My Config::🇭🇰 #19'
+- name: My Config::🇵🇹
+  type: ss
+  server: 185.231.233.173
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: My Config::🇬🇷
+  type: ss
+  server: 192.71.166.102
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 'My Config::🇩🇪 #7'
   type: vmess
-  server: 47.239.81.113
-  port: 29760
-  uuid: fd2987cc-b25f-4966-846a-b0d65d3c1e4b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇫🇷 #3'
-  type: vmess
-  server: 57.128.189.211
+  server: 57.129.28.63
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -854,84 +759,14 @@ proxies:
   network: ws
   ws-path: linkvws
   ws-headers:
-    Host: yichueng.org
-  servername: yichueng.org
-- name: My Config::🇵🇹
+    Host: fapeng.org
+  servername: fapeng.org
+- name: 'My Config::🇻🇳 #3'
   type: ss
-  server: 185.231.233.173
-  port: 990
+  server: 160.19.78.75
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇺🇸 #12'
-  type: ss
-  server: 23.157.40.101
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: My Config::🇬🇷
-  type: ss
-  server: 192.71.166.102
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: My Config::🇪🇨
-  type: ss
-  server: 185.47.253.171
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇳🇱 #37'
-  type: ss
-  server: beesyar.org
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: My Config::🇪🇪
-  type: ss
-  server: 188.214.36.155
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 'My Config::🇭🇰 #20'
-  type: vmess
-  server: 47.238.109.55
-  port: 41928
-  uuid: 6630fa8a-d681-49ef-8103-9516de7e5476
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #21'
-  type: vmess
-  server: 47.238.109.55
-  port: 36048
-  uuid: 4452049a-2f3a-47e3-97f6-207992ad892b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #22'
-  type: vmess
-  server: 103.243.25.213
-  port: 21533
-  uuid: 6d4e2341-e33d-428d-bc70-1461592ab1a2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
-- name: 'My Config::🇭🇰 #23'
-  type: vmess
-  server: 45.116.78.152
-  port: 7151
-  uuid: a3a95415-b7f3-4f1f-9486-bee6a68feaa2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /arki?ed=2048
+  password: Nk9asglDzHzjktVzTkvhaA
 proxy-groups:
 - name: PROXY
   type: select
@@ -945,9 +780,9 @@ proxy-groups:
   proxies:
   - My Config::🇺🇸
   - 'My Config::🇺🇸 #2'
+  - 'My Config::🇺🇸 #3'
   - My Config::🇩🇪
   - My Config::🇸🇬
-  - 'My Config::🇺🇸 #3'
   - 'My Config::🇺🇸 #4'
   - My Config::🇳🇱
   - 'My Config::🇳🇱 #2'
@@ -960,107 +795,87 @@ proxy-groups:
   - 'My Config::🇳🇱 #9'
   - 'My Config::🇳🇱 #10'
   - 'My Config::🇳🇱 #11'
-  - 'My Config::🇳🇱 #12'
-  - 'My Config::🇳🇱 #13'
-  - 'My Config::🇳🇱 #14'
-  - 'My Config::🇳🇱 #15'
-  - 'My Config::🇳🇱 #16'
-  - 'My Config::🇩🇪 #2'
-  - 'My Config::🇳🇱 #17'
-  - My Config::🇫🇷
-  - My Config::🇨🇿
   - My Config::🇨🇦
-  - 'My Config::🇩🇪 #3'
-  - 'My Config::🇩🇪 #4'
-  - 'My Config::🇩🇪 #5'
-  - 'My Config::🇳🇱 #18'
-  - 'My Config::🇳🇱 #19'
-  - 'My Config::🇺🇸 #5'
-  - 'My Config::🇺🇸 #6'
-  - 'My Config::🇺🇸 #7'
-  - 'My Config::🇳🇱 #20'
-  - 'My Config::🇺🇸 #8'
-  - 'My Config::🇳🇱 #21'
-  - 'My Config::🇫🇷 #2'
-  - My Config::🇵🇾
-  - My Config::🇷🇺
-  - 'My Config::🇳🇱 #22'
-  - 'My Config::🇳🇱 #23'
-  - My Config::🇷🇴
-  - My Config::🇫🇮
   - 'My Config::🇨🇦 #2'
+  - My Config::🇨🇿
+  - My Config::🇵🇱
+  - 'My Config::🇩🇪 #2'
+  - 'My Config::🇩🇪 #3'
+  - 'My Config::🇳🇱 #12'
+  - 'My Config::🇩🇪 #4'
+  - 'My Config::🇺🇸 #5'
+  - 'My Config::🇳🇱 #13'
+  - My Config::🇬🇧
+  - 'My Config::🇺🇸 #6'
+  - 'My Config::🇳🇱 #14'
+  - 'My Config::🇺🇸 #7'
+  - 'My Config::🇳🇱 #15'
+  - My Config::🇵🇾
+  - 'My Config::🇳🇱 #16'
+  - My Config::🇷🇺
+  - 'My Config::🇳🇱 #17'
+  - My Config::🇷🇴
   - My Config::🇯🇵
-  - 'My Config::🇳🇱 #24'
-  - My Config::🇲🇾
-  - 'My Config::🇩🇪 #6'
-  - My Config::🇹🇷
   - 'My Config::🇨🇦 #3'
+  - My Config::❓
+  - 'My Config::🇳🇱 #18'
+  - My Config::🇲🇾
+  - 'My Config::🇩🇪 #5'
+  - 'My Config::🇨🇦 #4'
+  - My Config::🇹🇷
+  - 'My Config::❓ #2'
+  - My Config::🇻🇳
   - 'My Config::🇸🇬 #2'
   - 'My Config::🇸🇬 #3'
+  - 'My Config::🇩🇪 #6'
   - 'My Config::🇸🇬 #4'
-  - My Config::🇻🇳
-  - My Config::❓
-  - 'My Config::🇩🇪 #7'
-  - My Config::🇵🇱
-  - 'My Config::🇸🇬 #5'
+  - 'My Config::🇵🇱 #2'
+  - 'My Config::🇺🇸 #8'
   - 'My Config::🇺🇸 #9'
-  - 'My Config::🇺🇸 #10'
+  - My Config::🇨🇴
   - My Config::🇭🇰
   - 'My Config::🇭🇰 #2'
-  - My Config::🇪🇸
-  - 'My Config::🇨🇦 #4'
   - 'My Config::🇭🇰 #3'
-  - 'My Config::🇻🇳 #2'
+  - My Config::🇪🇸
+  - 'My Config::🇨🇦 #5'
   - 'My Config::🇭🇰 #4'
+  - 'My Config::🇻🇳 #2'
   - 'My Config::🇭🇰 #5'
+  - 'My Config::❓ #3'
   - 'My Config::🇭🇰 #6'
   - 'My Config::🇭🇰 #7'
-  - 'My Config::🇭🇰 #8'
   - My Config::🇰🇷
+  - 'My Config::🇭🇰 #8'
   - 'My Config::🇭🇰 #9'
+  - My Config::🇦🇷
   - 'My Config::🇭🇰 #10'
+  - 'My Config::🇷🇺 #2'
+  - 'My Config::🇳🇱 #19'
   - 'My Config::🇭🇰 #11'
   - 'My Config::🇭🇰 #12'
   - 'My Config::🇭🇰 #13'
-  - My Config::🇦🇷
-  - 'My Config::🇭🇰 #14'
-  - 'My Config::🇳🇱 #25'
-  - 'My Config::🇭🇰 #15'
-  - 'My Config::🇷🇺 #2'
-  - My Config::🇵🇷
-  - 'My Config::🇭🇰 #16'
-  - 'My Config::🇳🇱 #26'
+  - 'My Config::🇳🇱 #20'
+  - 'My Config::🇳🇱 #21'
+  - 'My Config::🇳🇱 #22'
+  - My Config::🇮🇩
   - My Config::🇮🇳
-  - 'My Config::🇭🇰 #17'
+  - 'My Config::🇺🇸 #10'
+  - 'My Config::🇳🇱 #23'
+  - My Config::🇨🇾
+  - 'My Config::🇳🇱 #24'
+  - 'My Config::🇳🇱 #25'
+  - 'My Config::🇯🇵 #2'
+  - 'My Config::🇳🇱 #26'
   - 'My Config::🇳🇱 #27'
   - 'My Config::🇳🇱 #28'
-  - My Config::🇮🇩
-  - 'My Config::🇳🇱 #29'
-  - 'My Config::🇳🇱 #30'
-  - 'My Config::🇮🇳 #2'
-  - 'My Config::🇳🇱 #31'
-  - 'My Config::🇳🇱 #32'
-  - 'My Config::🇳🇱 #33'
-  - 'My Config::🇳🇱 #34'
   - 'My Config::🇹🇷 #2'
-  - 'My Config::🇯🇵 #2'
-  - 'My Config::🇳🇱 #35'
   - 'My Config::🇯🇵 #3'
-  - 'My Config::🇭🇰 #18'
-  - 'My Config::🇳🇱 #36'
+  - 'My Config::🇳🇱 #29'
   - 'My Config::🇺🇸 #11'
-  - 'My Config::🇭🇰 #19'
-  - 'My Config::🇫🇷 #3'
   - My Config::🇵🇹
-  - 'My Config::🇺🇸 #12'
   - My Config::🇬🇷
-  - My Config::🇪🇨
-  - 'My Config::🇳🇱 #37'
-  - My Config::🇪🇪
-  - 'My Config::🇭🇰 #20'
-  - 'My Config::🇭🇰 #21'
-  - 'My Config::🇭🇰 #22'
-  - 'My Config::🇭🇰 #23'
+  - 'My Config::🇩🇪 #7'
+  - 'My Config::🇻🇳 #3'
 rule-providers:
   ir:
     type: http
