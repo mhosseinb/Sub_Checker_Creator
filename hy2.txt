@@ -1,4 +1,7 @@
 //profile-title: base64:My Sub=
 
-hysteria2://dongtaiwang.com@208.87.243.187:22222?security=tls&insecure=1&sni=www.bing.com#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
-hy2://8864aa9f-7517-4fd5-aef1-32050eb3095d@185.92.220.240:30205/?insecure=1&sni=net2025.afsharidempire.uk&obfs=salamander&obfs-password=GdQ4bgvT8RFwuWi2#My%20Config%3A%3A%F0%9F%87%B3%F0%9F%87%B1
+hysteria2://dongtaiwang.com@208.87.243.187:22222?security=tls&insecure=1&sni=www.bing.com#My%20Config%3A%3A%E2%9D%93
+hy2://8864aa9f-7517-4fd5-aef1-32050eb3095d@net2025.afsharidempire.uk:30205/?obfs=salamander&obfs-password=GdQ4bgvT8RFwuWi2&sni=net2025.afsharidempire.uk&insecure=1&alpn=h3#My%20Config%3A%3A%E2%9D%93
+hy2://YwuvGJk36B@81.168.83.89:2083/?insecure=1&sni=kotlet.arshiacomplus.dpdns.org&obfs=salamander&obfs-password=khameniiko%40smad%40ret#My%20Config%3A%3A%E2%9D%93
+hy2://YwuvGJk36B@filtercheebyha.arshiacomplus.dpdns.org:2083/?insecure=1&sni=kotlet.arshiacomplus.dpdns.org&obfs=salamander&obfs-password=khameniiko%40smad%40ret#My%20Config%3A%3A%E2%9D%93
+hysteria2://dongtaiwang.com@208.87.243.187:22222?insecure=1#My%20Config%3A%3A%E2%9D%93

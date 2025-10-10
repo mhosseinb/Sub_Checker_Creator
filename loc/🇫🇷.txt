@@ -1,6 +1,0 @@
-//profile-title: base64:My Sub=
-
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638943929060335589.warsaw-prx-dnraacp.info:8880?security=&encryption=none&type=grpc#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%B7
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930975302281795.helsinki-drc-tusabu.info:8880?security=&encryption=none&type=grpc#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%B7
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638936664855921747.amsterdam-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%B7
-vless://6c11247b-6078-461a-93d5-22e4df284e6d@198.62.62.229:443?encryption=none&security=tls&sni=mirror.fullmargintraders.com&type=ws&host=mirror.fullmargintraders.com&path=%2Fwsv%2F6c11247b-6078-461a-93d5-22e4df284e6d#My%20Config%3A%3A%F0%9F%87%AB%F0%9F%87%B7
