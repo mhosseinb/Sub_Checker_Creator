@@ -1,4 +1,10 @@
 //profile-title: base64:My Sub=
 
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206MTAwODZAMTUzLjEyMS41MS4yMTQ6MTAwODc=#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206MTAwODY=@153.121.43.183:10087#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
 trojan://253bc477d4e43c209f2d427272968280@160.16.116.227:1331?allowInsecure=0&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+trojan://253bc477d4e43c209f2d427272968280@160.16.68.250:4451?allowInsecure=0&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
+vmess://eyJhZGQiOiI0My4yNDYuMTk4LjEzNCIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiYzA0MGYxNTktMzc3ZC00YjYyLWFhZjYtOTk0NDYwZDNlZTRlIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Fya2k/ZWQ9MjA0OCIsInBvcnQiOjExNjgzLCJwcyI6Ik15IENvbmZpZzo68J+Hr/Cfh7UiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiJ9
 vless://4f9e2051-1996-48b0-92d3-acb27b380e92@potions-misha-bridal-sykes-robbers-scorn-peep-reverse.91-cdascas-23928csmc2-msc1v1mow-sic2p2a-gfx3n3am-swi-xn-cdc-ox1.click:443?security=tls&encryption=none&type=ws&sni=potions-misha-bridal-sykes-robbers-scorn-peep-reverse.91-cdascas-23928csmc2-msc1v1mow-sic2p2a-gfx3n3am-swi-xn-cdc-ox1.click#My%20Config%3A%3A%F0%9F%87%AF%F0%9F%87%B5
