@@ -1,8 +1,11 @@
 //profile-title: base64:My Sub=
 
+trojan://253bc477d4e43c209f2d427272968280@23.227.194.19:443?security=tls&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://253bc477d4e43c209f2d427272968280@23.227.194.234:443?security=tls&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://253bc477d4e43c209f2d427272968280@38.180.249.152:443?security=tls&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AC
-trojan://253bc477d4e43c209f2d427272968280@23.227.194.19:443?allowInsecure=0&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://253bc477d4e43c209f2d427272968280@221.128.195.219:4400?allowInsecure=0&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%AD%F0%9F%87%B0
+trojan://253bc477d4e43c209f2d427272968280@23.227.194.19:443?allowInsecure=0&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://253bc477d4e43c209f2d427272968280@23.227.194.234:443?allowInsecure=0&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%BA%F0%9F%87%B8
 trojan://253bc477d4e43c209f2d427272968280@38.180.249.152:443?allowInsecure=1&sni=www.nintendogames.net#My%20Config%3A%3A%F0%9F%87%B8%F0%9F%87%AC
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#My%20Config%3A%3A%F0%9F%87%AC%F0%9F%87%A7
+trojan://YwuvGJk36B@creativecommons.org:2053?path=%2Fyamtekodasayahhh&security=tls&alpn=http%2F1.1&host=kotlet.arshiacomplus.dpdns.org&fp=chrome&type=ws&sni=kotlet.arshiacomplus.dpdns.org#My%20Config%3A%3A%F0%9F%87%AC%F0%9F%87%A7
